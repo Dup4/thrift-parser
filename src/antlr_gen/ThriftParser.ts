@@ -24,6 +24,8 @@ import { VocabularyImpl } from "antlr4ts/VocabularyImpl";
 import * as Utils from "antlr4ts/misc/Utils";
 
 import { ThriftListener } from "./ThriftListener";
+import { ThriftVisitor } from "./ThriftVisitor";
+
 
 export class ThriftParser extends Parser {
 	public static readonly T__0 = 1;
@@ -2378,6 +2380,14 @@ export class DocumentContext extends ParserRuleContext {
 			listener.exitDocument(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitDocument) {
+			return visitor.visitDocument(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2408,6 +2418,14 @@ export class HeaderContext extends ParserRuleContext {
 			listener.exitHeader(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitHeader) {
+			return visitor.visitHeader(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2428,6 +2446,14 @@ export class Include_Context extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitInclude_) {
 			listener.exitInclude_(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitInclude_) {
+			return visitor.visitInclude_(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2464,6 +2490,14 @@ export class Namespace_Context extends ParserRuleContext {
 			listener.exitNamespace_(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitNamespace_) {
+			return visitor.visitNamespace_(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2484,6 +2518,14 @@ export class Cpp_includeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitCpp_include) {
 			listener.exitCpp_include(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitCpp_include) {
+			return visitor.visitCpp_include(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2531,6 +2573,14 @@ export class DefinitionContext extends ParserRuleContext {
 			listener.exitDefinition(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitDefinition) {
+			return visitor.visitDefinition(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2562,6 +2612,14 @@ export class Const_ruleContext extends ParserRuleContext {
 			listener.exitConst_rule(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitConst_rule) {
+			return visitor.visitConst_rule(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2588,6 +2646,14 @@ export class Typedef_Context extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitTypedef_) {
 			listener.exitTypedef_(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitTypedef_) {
+			return visitor.visitTypedef_(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2624,6 +2690,14 @@ export class Enum_ruleContext extends ParserRuleContext {
 			listener.exitEnum_rule(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitEnum_rule) {
+			return visitor.visitEnum_rule(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2653,6 +2727,14 @@ export class Enum_fieldContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitEnum_field) {
 			listener.exitEnum_field(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitEnum_field) {
+			return visitor.visitEnum_field(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2698,6 +2780,14 @@ export class SenumContext extends ParserRuleContext {
 			listener.exitSenum(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitSenum) {
+			return visitor.visitSenum(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2730,6 +2820,14 @@ export class Struct_Context extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitStruct_) {
 			listener.exitStruct_(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitStruct_) {
+			return visitor.visitStruct_(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2766,6 +2864,14 @@ export class Union_Context extends ParserRuleContext {
 			listener.exitUnion_(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitUnion_) {
+			return visitor.visitUnion_(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2798,6 +2904,14 @@ export class Exception_Context extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitException_) {
 			listener.exitException_(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitException_) {
+			return visitor.visitException_(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2842,6 +2956,14 @@ export class ServiceContext extends ParserRuleContext {
 			listener.exitService(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitService) {
+			return visitor.visitService(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2882,6 +3004,14 @@ export class FieldContext extends ParserRuleContext {
 			listener.exitField(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitField) {
+			return visitor.visitField(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2906,6 +3036,14 @@ export class Field_idContext extends ParserRuleContext {
 			listener.exitField_id(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitField_id) {
+			return visitor.visitField_id(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2925,6 +3063,14 @@ export class Field_reqContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitField_req) {
 			listener.exitField_req(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitField_req) {
+			return visitor.visitField_req(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -2973,6 +3119,14 @@ export class Function_Context extends ParserRuleContext {
 			listener.exitFunction_(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitFunction_) {
+			return visitor.visitFunction_(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -2992,6 +3146,14 @@ export class OnewayContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitOneway) {
 			listener.exitOneway(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitOneway) {
+			return visitor.visitOneway(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3016,6 +3178,14 @@ export class Function_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitFunction_type) {
 			listener.exitFunction_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitFunction_type) {
+			return visitor.visitFunction_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3048,6 +3218,14 @@ export class Throws_listContext extends ParserRuleContext {
 			listener.exitThrows_list(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitThrows_list) {
+			return visitor.visitThrows_list(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3078,6 +3256,14 @@ export class Type_annotationsContext extends ParserRuleContext {
 			listener.exitType_annotations(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitType_annotations) {
+			return visitor.visitType_annotations(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3106,6 +3292,14 @@ export class Type_annotationContext extends ParserRuleContext {
 			listener.exitType_annotation(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitType_annotation) {
+			return visitor.visitType_annotation(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3129,6 +3323,14 @@ export class Annotation_valueContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitAnnotation_value) {
 			listener.exitAnnotation_value(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitAnnotation_value) {
+			return visitor.visitAnnotation_value(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3159,6 +3361,14 @@ export class Field_typeContext extends ParserRuleContext {
 			listener.exitField_type(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitField_type) {
+			return visitor.visitField_type(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3184,6 +3394,14 @@ export class Base_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitBase_type) {
 			listener.exitBase_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitBase_type) {
+			return visitor.visitBase_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3217,6 +3435,14 @@ export class Container_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitContainer_type) {
 			listener.exitContainer_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitContainer_type) {
+			return visitor.visitContainer_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3253,6 +3479,14 @@ export class Map_typeContext extends ParserRuleContext {
 			listener.exitMap_type(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitMap_type) {
+			return visitor.visitMap_type(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3278,6 +3512,14 @@ export class Set_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitSet_type) {
 			listener.exitSet_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitSet_type) {
+			return visitor.visitSet_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3307,6 +3549,14 @@ export class List_typeContext extends ParserRuleContext {
 			listener.exitList_type(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitList_type) {
+			return visitor.visitList_type(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3327,6 +3577,14 @@ export class Cpp_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitCpp_type) {
 			listener.exitCpp_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitCpp_type) {
+			return visitor.visitCpp_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3362,6 +3620,14 @@ export class Const_valueContext extends ParserRuleContext {
 			listener.exitConst_value(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitConst_value) {
+			return visitor.visitConst_value(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3383,6 +3649,14 @@ export class IntegerContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitInteger) {
 			listener.exitInteger(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitInteger) {
+			return visitor.visitInteger(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3424,6 +3698,14 @@ export class Const_listContext extends ParserRuleContext {
 			listener.exitConst_list(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitConst_list) {
+			return visitor.visitConst_list(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3457,6 +3739,14 @@ export class Const_map_entryContext extends ParserRuleContext {
 			listener.exitConst_map_entry(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitConst_map_entry) {
+			return visitor.visitConst_map_entry(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3487,6 +3777,14 @@ export class Const_mapContext extends ParserRuleContext {
 			listener.exitConst_map(this);
 		}
 	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitConst_map) {
+			return visitor.visitConst_map(this);
+		} else {
+			return visitor.visitChildren(this);
+		}
+	}
 }
 
 
@@ -3507,6 +3805,14 @@ export class List_separatorContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitList_separator) {
 			listener.exitList_separator(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitList_separator) {
+			return visitor.visitList_separator(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
@@ -3536,6 +3842,14 @@ export class Real_base_typeContext extends ParserRuleContext {
 	public exitRule(listener: ThriftListener): void {
 		if (listener.exitReal_base_type) {
 			listener.exitReal_base_type(this);
+		}
+	}
+	// @Override
+	public accept<Result>(visitor: ThriftVisitor<Result>): Result {
+		if (visitor.visitReal_base_type) {
+			return visitor.visitReal_base_type(this);
+		} else {
+			return visitor.visitChildren(this);
 		}
 	}
 }
