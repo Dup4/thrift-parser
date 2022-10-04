@@ -38,7 +38,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "gen": "antlr4ts Thrift.g4 -o typescript/src",
+    "gen": "antlr4ts Thrift.g4 -o src/antlr_gen",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "start": "esmo src/index.ts",
