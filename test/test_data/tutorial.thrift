@@ -15,54 +15,20 @@
  * KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations
  * under the License.
+ *
+ * Contains some contributions under the Thrift Software License.
+ * Please see doc/old-thrift-license.txt in the Thrift distribution for
+ * details.
  */
 
-# Thrift Tutorial
-# Mark Slee (mcslee@facebook.com)
-#
-# This file aims to teach you how to use Thrift, in a .thrift file. Neato. The
-# first thing to notice is that .thrift files support standard shell comments.
-# This lets you make your thrift file executable and include your Thrift build
-# step on the top line. And you can place comments like this anywhere you like.
-#
-# Before running this file, you will need to have installed the thrift compiler
-# into /usr/local/bin.
 
-/**
- * The first thing to know about are types. The available types in Thrift are:
- *
- *  bool        Boolean, one byte
- *  i8 (byte)   Signed 8-bit integer
- *  i16         Signed 16-bit integer
- *  i32         Signed 32-bit integer
- *  i64         Signed 64-bit integer
- *  double      64-bit floating point value
- *  string      String
- *  binary      Blob (byte array)
- *  map<t1,t2>  Map from one type to another
- *  list<t1>    Ordered list of one type
- *  set<t1>     Set of unique elements of one type
- *
- * Did you also notice that Thrift supports C style comments?
- */
-
-// Just in case you were wondering... yes. We support simple C comments too.
-
-/**
- * Thrift files can reference other Thrift files to include common struct
- * and service definitions. These are found using the current path, or by
- * searching relative to any paths specified with the -I compiler flag.
- *
- * Included objects are accessed using the name of the .thrift file as a
- * prefix. i.e. shared.SharedObject
- */
 include "shared.thrift"
 
 /**
  * Thrift files can namespace, package, or prefix their output in various
  * target languages.
  */
-
+/*
 namespace cl tutorial
 namespace cpp tutorial
 namespace d tutorial
@@ -72,6 +38,8 @@ namespace php tutorial
 namespace perl tutorial
 namespace haxe tutorial
 namespace netstd tutorial
+*/
+namespace py tutorial
 
 /**
  * Thrift lets you do typedefs to get pretty names for your types. Standard
@@ -85,16 +53,18 @@ typedef i32 MyInteger
  */
 const i32 INT32CONSTANT = 9853
 const map<string,string> MAPCONSTANT = {'hello':'world', 'goodnight':'moon'}
-
+const double DOUBLE_CONSTANT = 98.53333333222
+const double DOUBLE_CONSTANT2 = 1.35E10
 /**
  * You can define enums, which are just 32 bit integers. Values are optional
  * and start at 1 if not supplied, C style again.
  */
 enum Operation {
-  ADD = 1,
-  SUBTRACT = 2,
+    ADD = 1,
+    SUBTRACT = 2,
   MULTIPLY = 3,
-  DIVIDE = 4
+  DIVIDE = 4;
+  LESS = -1;
 }
 
 /**
@@ -118,7 +88,7 @@ struct Work {
  */
 exception InvalidOperation {
   1: i32 whatOp,
-  2: string why
+  2: string why = "ok? what the dog";
 }
 
 /**
