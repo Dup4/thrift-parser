@@ -4,6 +4,10 @@
 [![Lint][gh-ci-lint-badge]][gh-ci-lint]
 [![GitHub release][gh-release-badge]][gh-release]
 
+## Reference
+
+* [Thrift][thrift]
+
 ## License
 
 [MIT](./LICENSE) License © 2022 [Dup4][dup4]
@@ -15,3 +19,4 @@
 [gh-ci-lint]: https://github.com/Dup4/thrift-parser-typescript/actions/workflows/lint.yml
 [gh-release-badge]: https://img.shields.io/github/release/Dup4/thrift-parser-typescript.svg
 [gh-release]: https://GitHub.com/Dup4/thrift-parser-typescript/releases
+[thrift]: https://github.com/apache/thrift
