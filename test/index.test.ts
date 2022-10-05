@@ -21,7 +21,7 @@ describe("Thrift Parser", () => {
 
   it("load thrift from string", function () {
     const data = ThriftData.fromString('include "shared.thrift"');
-    expect(data.tokens.get(0).text).toStrictEqual("include");
+    expect(data.tokenStream.get(0).text).toStrictEqual("include");
     const header = data.document.getChild(0);
     const include = header.getChild(0);
     const token = include.getChild(0);
@@ -34,7 +34,7 @@ describe("Thrift Parser", () => {
   it("load literal value", function () {
     const thrift = `const string default_user = 'it\\'s name is \\" x \\" or \\'x\\' \\r\\t\\n';`;
     const data = ThriftData.fromString(thrift);
-    expect(data.tokens.get(0).text).toStrictEqual("const");
+    expect(data.tokenStream.get(0).text).toStrictEqual("const");
 
     const defines = data.document.getChild(0);
     const constValue = defines.getChild(0);
@@ -43,7 +43,7 @@ describe("Thrift Parser", () => {
     expect(token.text).toStrictEqual("const");
     expect(token instanceof TerminalNode).ok;
     expect(token.childCount).toStrictEqual(0);
-    expect(data.tokens.get(8).text).toStrictEqual(
+    expect(data.tokenStream.get(8).text).toStrictEqual(
       `'it\\'s name is \\" x \\" or \\'x\\' \\r\\t\\n'`,
     );
   });
@@ -54,7 +54,7 @@ describe("Thrift Parser", () => {
 
     const data = ThriftData.fromString(thrift);
     expect(data instanceof ThriftData).ok;
-    expect(data.tokens.get(0).text).toMatchInlineSnapshot('"const"');
+    expect(data.tokenStream.get(0).text).toMatchInlineSnapshot('"const"');
   });
 
   it("test complex literal more", () => {
@@ -62,6 +62,6 @@ describe("Thrift Parser", () => {
       const string default_name = '"abc\\'s"';`;
     const data = ThriftData.fromString(thrift);
     expect(data instanceof ThriftData).ok;
-    expect(data.tokens.get(0).text).toMatchInlineSnapshot('"const"');
+    expect(data.tokenStream.get(0).text).toMatchInlineSnapshot('"const"');
   });
 });

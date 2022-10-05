@@ -15,29 +15,18 @@ export type ParserResult = [
   DocumentContext,
 ];
 
-export function parse(inputStream: CharStream): ParserResult {
-  const lexer = new ThriftLexer(inputStream);
-  const tokens = new CommonTokenStream(lexer);
-  const parser = new ThriftParser(tokens);
-  parser.errorHandler = new BailErrorStrategy();
-
-  const ctx = new ParserRuleContext();
-  parser.enterRule(ctx, 0, 0);
-  const document = parser.document();
-  return [lexer, tokens, parser, document];
-}
-
 export class ThriftData {
   lexer: ThriftLexer;
-  tokens: CommonTokenStream;
+  tokenStream: CommonTokenStream;
   parser: ThriftParser;
   document: DocumentContext;
 
   constructor(inputStream: CharStream) {
-    const [lexer, tokens, parser, document] = parse(inputStream);
+    const [lexer, tokenStream, parser, document] =
+      ThriftData.parse(inputStream);
 
     this.lexer = lexer;
-    this.tokens = tokens;
+    this.tokenStream = tokenStream;
     this.parser = parser;
     this.document = document;
   }
@@ -45,6 +34,18 @@ export class ThriftData {
   static fromString(data: string): ThriftData {
     const inputStream = CharStreams.fromString(data);
     return new ThriftData(inputStream);
+  }
+
+  static parse(inputStream: CharStream): ParserResult {
+    const lexer = new ThriftLexer(inputStream);
+    const tokenStream = new CommonTokenStream(lexer);
+    const parser = new ThriftParser(tokenStream);
+    parser.errorHandler = new BailErrorStrategy();
+
+    const ctx = new ParserRuleContext();
+    parser.enterRule(ctx, 0, 0);
+    const document = parser.document();
+    return [lexer, tokenStream, parser, document];
   }
 }
 
