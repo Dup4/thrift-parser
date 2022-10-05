@@ -15,7 +15,9 @@ describe("Thrift Parser", () => {
 
     for (const file of files) {
       const content = fs.readFileSync(getFullPath(file)).toString();
-      expect(content).matchSnapshot();
+      // expect(content).matchSnapshot();
+      const data = ThriftData.fromString(content);
+      expect(data.document.toStringTree()).matchSnapshot();
     }
   });
 
