@@ -1,7 +1,7 @@
 // Generated from Thrift.g4 by ANTLR 4.9.0-SNAPSHOT
 
 
-import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor";
+import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor.js";
 
 import { DocumentContext } from "./ThriftParser";
 import { HeaderContext } from "./ThriftParser";

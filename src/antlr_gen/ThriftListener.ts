@@ -1,7 +1,7 @@
 // Generated from Thrift.g4 by ANTLR 4.9.0-SNAPSHOT
 
 
-import { ParseTreeListener } from "antlr4ts/tree/ParseTreeListener";
+import { ParseTreeListener } from "antlr4ts/tree/ParseTreeListener.js";
 
 import { DocumentContext } from "./ThriftParser";
 import { HeaderContext } from "./ThriftParser";

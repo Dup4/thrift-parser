@@ -55,4 +55,4 @@ export * from "./antlr_gen/ThriftListener";
 export * from "./antlr_gen/ThriftParser";
 export * from "./antlr_gen/ThriftVisitor";
 export * from "antlr4ts";
-export * from "antlr4ts/tree";
+export * from "antlr4ts/tree/index.js";
