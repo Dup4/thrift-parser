@@ -10,16 +10,29 @@ function getFullPath(file_name: string): string {
 }
 
 describe("Thrift Parser", () => {
-  it("load files", () => {
-    const files = fs.readdirSync(getFullPath(""));
+  it("view token", () => {
+    const content = fs
+      .readFileSync(getFullPath("AnnotationTest.thrift"))
+      .toString();
+    const thriftData = ThriftData.fromString(content);
 
-    for (const file of files) {
-      const content = fs.readFileSync(getFullPath(file)).toString();
-      // expect(content).matchSnapshot();
-      const data = ThriftData.fromString(content);
-      expect(data.document.toStringTree()).matchSnapshot();
+    const tokens = thriftData.tokenStream.getTokens();
+
+    for (const token of tokens) {
+      expect(
+        `[line=${token.line}] [type=${token.type}] [channel=${token.channel}] [tokenIndex=${token.tokenIndex}] [startIndex=${token.startIndex}] [stopIndex=${token.stopIndex}]\n${token.text}`,
+      ).matchSnapshot();
     }
   });
+
+  // it("load files", () => {
+  //   const files = fs.readdirSync(getFullPath(""));
+
+  //   for (const file of files) {
+  //     const content = fs.readFileSync(getFullPath(file)).toString();
+  //     expect(content).matchSnapshot();
+  //   }
+  // });
 
   it("load thrift from string", function () {
     const data = ThriftData.fromString('include "shared.thrift"');

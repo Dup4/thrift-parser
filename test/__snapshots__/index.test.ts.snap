@@ -1,13 +1,2145 @@
 // Vitest Snapshot v1
 
-exports[`Thrift Parser > load files 1`] = `"(typedeflist<i32>(cpp.template=\\"std::list\\")int_linked_liststructfoo{1:i32bar(presence=\\"required\\");2:i32baz(presence=\\"manual\\",cpp.use_pointer=\\"\\",);3:i32qux;4:i32bop;}(cpp.type=\\"DenseFoo\\",python.type=\\"DenseFoo\\",java.final=\\"\\",annotation.without.value,)exceptionfoo_error{1:i32error_code(foo=\\"bar\\")2:stringerror_msg}(foo=\\"bar\\")typedefstring(unicode.encoding=\\"UTF-16\\")non_latin_string(foo=\\"bar\\")typedeflist<double(cpp.fixed_point=\\"16\\")>tiny_float_listenumweekdays{SUNDAY(weekend=\\"yes\\"),MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY(weekend=\\"yes\\")}(foo.bar=\\"baz\\")senumseasons{\\"Spring\\",\\"Summer\\",\\"Fall\\",\\"Winter\\"}(foo=\\"bar\\")structostr_default{1:i32bar;}structostr_custom{1:i32bar;}(cpp.customostream)servicefoo_service{voidfoo()(foo=\\"bar\\")}(a.b=\\"c\\")servicedeprecate_everything{voidBar()(deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\")voidBaz()(deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\")voidDeprecated()(deprecated)}<EOF> (typedeflist<i32>(cpp.template=\\"std::list\\")int_linked_list (typedeflist<i32>(cpp.template=\\"std::list\\")int_linked_list typedef (list<i32>(cpp.template=\\"std::list\\") (list<i32>(cpp.template=\\"std::list\\") (list<i32> list < (i32 (i32 (i32 i32))) >) ((cpp.template=\\"std::list\\") ( (cpp.template=\\"std::list\\" cpp.template = (\\"std::list\\" \\"std::list\\")) )))) int_linked_list)) (structfoo{1:i32bar(presence=\\"required\\");2:i32baz(presence=\\"manual\\",cpp.use_pointer=\\"\\",);3:i32qux;4:i32bop;}(cpp.type=\\"DenseFoo\\",python.type=\\"DenseFoo\\",java.final=\\"\\",annotation.without.value,) (structfoo{1:i32bar(presence=\\"required\\");2:i32baz(presence=\\"manual\\",cpp.use_pointer=\\"\\",);3:i32qux;4:i32bop;}(cpp.type=\\"DenseFoo\\",python.type=\\"DenseFoo\\",java.final=\\"\\",annotation.without.value,) struct foo { (1:i32bar(presence=\\"required\\"); (1: (1 1) :) (i32 (i32 (i32 i32))) bar ((presence=\\"required\\") ( (presence=\\"required\\" presence = (\\"required\\" \\"required\\")) )) (; ;)) (2:i32baz(presence=\\"manual\\",cpp.use_pointer=\\"\\",); (2: (2 2) :) (i32 (i32 (i32 i32))) baz ((presence=\\"manual\\",cpp.use_pointer=\\"\\",) ( (presence=\\"manual\\", presence = (\\"manual\\" \\"manual\\") (, ,)) (cpp.use_pointer=\\"\\", cpp.use_pointer = (\\"\\" \\"\\") (, ,)) )) (; ;)) (3:i32qux; (3: (3 3) :) (i32 (i32 (i32 i32))) qux (; ;)) (4:i32bop; (4: (4 4) :) (i32 (i32 (i32 i32))) bop (; ;)) } ((cpp.type=\\"DenseFoo\\",python.type=\\"DenseFoo\\",java.final=\\"\\",annotation.without.value,) ( (cpp.type=\\"DenseFoo\\", cpp.type = (\\"DenseFoo\\" \\"DenseFoo\\") (, ,)) (python.type=\\"DenseFoo\\", python.type = (\\"DenseFoo\\" \\"DenseFoo\\") (, ,)) (java.final=\\"\\", java.final = (\\"\\" \\"\\") (, ,)) (annotation.without.value, annotation.without.value (, ,)) )))) (exceptionfoo_error{1:i32error_code(foo=\\"bar\\")2:stringerror_msg}(foo=\\"bar\\") (exceptionfoo_error{1:i32error_code(foo=\\"bar\\")2:stringerror_msg}(foo=\\"bar\\") exception foo_error { (1:i32error_code(foo=\\"bar\\") (1: (1 1) :) (i32 (i32 (i32 i32))) error_code ((foo=\\"bar\\") ( (foo=\\"bar\\" foo = (\\"bar\\" \\"bar\\")) ))) (2:stringerror_msg (2: (2 2) :) (string (string (string string))) error_msg) } ((foo=\\"bar\\") ( (foo=\\"bar\\" foo = (\\"bar\\" \\"bar\\")) )))) (typedefstring(unicode.encoding=\\"UTF-16\\")non_latin_string(foo=\\"bar\\") (typedefstring(unicode.encoding=\\"UTF-16\\")non_latin_string(foo=\\"bar\\") typedef (string(unicode.encoding=\\"UTF-16\\") (string(unicode.encoding=\\"UTF-16\\") (string string) ((unicode.encoding=\\"UTF-16\\") ( (unicode.encoding=\\"UTF-16\\" unicode.encoding = (\\"UTF-16\\" \\"UTF-16\\")) )))) non_latin_string ((foo=\\"bar\\") ( (foo=\\"bar\\" foo = (\\"bar\\" \\"bar\\")) )))) (typedeflist<double(cpp.fixed_point=\\"16\\")>tiny_float_list (typedeflist<double(cpp.fixed_point=\\"16\\")>tiny_float_list typedef (list<double(cpp.fixed_point=\\"16\\")> (list<double(cpp.fixed_point=\\"16\\")> (list<double(cpp.fixed_point=\\"16\\")> list < (double(cpp.fixed_point=\\"16\\") (double(cpp.fixed_point=\\"16\\") (double double) ((cpp.fixed_point=\\"16\\") ( (cpp.fixed_point=\\"16\\" cpp.fixed_point = (\\"16\\" \\"16\\")) )))) >))) tiny_float_list)) (enumweekdays{SUNDAY(weekend=\\"yes\\"),MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY(weekend=\\"yes\\")}(foo.bar=\\"baz\\") (enumweekdays{SUNDAY(weekend=\\"yes\\"),MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY(weekend=\\"yes\\")}(foo.bar=\\"baz\\") enum weekdays { (SUNDAY(weekend=\\"yes\\"), SUNDAY ((weekend=\\"yes\\") ( (weekend=\\"yes\\" weekend = (\\"yes\\" \\"yes\\")) )) (, ,)) (MONDAY, MONDAY (, ,)) (TUESDAY, TUESDAY (, ,)) (WEDNESDAY, WEDNESDAY (, ,)) (THURSDAY, THURSDAY (, ,)) (FRIDAY, FRIDAY (, ,)) (SATURDAY(weekend=\\"yes\\") SATURDAY ((weekend=\\"yes\\") ( (weekend=\\"yes\\" weekend = (\\"yes\\" \\"yes\\")) ))) } ((foo.bar=\\"baz\\") ( (foo.bar=\\"baz\\" foo.bar = (\\"baz\\" \\"baz\\")) )))) (senumseasons{\\"Spring\\",\\"Summer\\",\\"Fall\\",\\"Winter\\"}(foo=\\"bar\\") (senumseasons{\\"Spring\\",\\"Summer\\",\\"Fall\\",\\"Winter\\"}(foo=\\"bar\\") senum seasons { \\"Spring\\" (, ,) \\"Summer\\" (, ,) \\"Fall\\" (, ,) \\"Winter\\" } ((foo=\\"bar\\") ( (foo=\\"bar\\" foo = (\\"bar\\" \\"bar\\")) )))) (structostr_default{1:i32bar;} (structostr_default{1:i32bar;} struct ostr_default { (1:i32bar; (1: (1 1) :) (i32 (i32 (i32 i32))) bar (; ;)) })) (structostr_custom{1:i32bar;}(cpp.customostream) (structostr_custom{1:i32bar;}(cpp.customostream) struct ostr_custom { (1:i32bar; (1: (1 1) :) (i32 (i32 (i32 i32))) bar (; ;)) } ((cpp.customostream) ( (cpp.customostream cpp.customostream) )))) (servicefoo_service{voidfoo()(foo=\\"bar\\")}(a.b=\\"c\\") (servicefoo_service{voidfoo()(foo=\\"bar\\")}(a.b=\\"c\\") service foo_service { (voidfoo()(foo=\\"bar\\") (void void) foo ( ) ((foo=\\"bar\\") ( (foo=\\"bar\\" foo = (\\"bar\\" \\"bar\\")) ))) } ((a.b=\\"c\\") ( (a.b=\\"c\\" a.b = (\\"c\\" \\"c\\")) )))) (servicedeprecate_everything{voidBar()(deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\")voidBaz()(deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\")voidDeprecated()(deprecated)} (servicedeprecate_everything{voidBar()(deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\")voidBaz()(deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\")voidDeprecated()(deprecated)} service deprecate_everything { (voidBar()(deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\") (void void) Bar ( ) ((deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\") ( (deprecated=\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\" deprecated = (\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\" \\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\")) ))) (voidBaz()(deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\") (void void) Baz ( ) ((deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\") ( (deprecated=\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\" deprecated = (\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\" \\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\")) ))) (voidDeprecated()(deprecated) (void void) Deprecated ( ) ((deprecated) ( (deprecated deprecated) ))) })) <EOF>)"`;
+exports[`Thrift Parser > view token 1`] = `
+"[line=1] [type=53] [channel=2] [tokenIndex=0] [startIndex=0] [stopIndex=802]
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements. See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership. The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * \\"License\\"); you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * \\"AS IS\\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */"
+`;
 
-exports[`Thrift Parser > load files 2`] = `"(namespacec_glibTTestnamespacecppthrift.testnamespacedelphiThrift.Testnamespacegothrifttestnamespacejavathrift.testnamespacejsThriftTestnamespaceluaThriftTestnamespacenetstdThriftTestnamespaceperlThriftTestnamespacephpThriftTestnamespacepyThriftTestnamespacepy.twistedThriftTestnamespacerbThrift.TestnamespacestThriftTestnamespacexsdtest(uri='http://thrift.apache.org/ns/ThriftTest')namespacenoexistThriftTestnamespacecpp.noexistThriftTestnamespace*thrift.testenumNumberz{ONE=1,TWO,THREE,FIVE=5,SIX,EIGHT=8}constNumberzmyNumberz=Numberz.ONE;typedefi64UserIdstructBonk{1:stringmessage,2:i32type}typedefmap<string,Bonk>MapTypestructBools{1:boolim_true,2:boolim_false,}structXtruct{1:stringstring_thing,4:i8byte_thing,9:i32i32_thing,11:i64i64_thing}structXtruct2{1:i8byte_thing,2:Xtructstruct_thing,3:i32i32_thing}structXtruct3{1:stringstring_thing,4:i32changed,9:i32i32_thing,11:i64i64_thing}structInsanity{1:map<Numberz,UserId>userMap,2:list<Xtruct>xtructs}(python.immutable=\\"\\")structCrazyNesting{1:stringstring_field,2:optionalset<Insanity>set_field,3:requiredlist<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>>list_field,4:binarybinary_field}unionSomeUnion{1:map<Numberz,UserId>map_thing,2:stringstring_thing,3:i32i32_thing,4:Xtruct3xtruct_thing,5:Insanityinsanity_thing}exceptionXception{1:i32errorCode,2:stringmessage}exceptionXception2{1:i32errorCode,2:Xtructstruct_thing}structEmptyStruct{}structOneField{1:EmptyStructfield}serviceThriftTest{voidtestVoid(),stringtestString(1:stringthing),booltestBool(1:boolthing),i8testByte(1:i8thing),i32testI32(1:i32thing),i64testI64(1:i64thing),doubletestDouble(1:doublething),binarytestBinary(1:binarything),XtructtestStruct(1:Xtructthing),Xtruct2testNest(1:Xtruct2thing),map<i32,i32>testMap(1:map<i32,i32>thing),map<string,string>testStringMap(1:map<string,string>thing),set<i32>testSet(1:set<i32>thing),list<i32>testList(1:list<i32>thing),NumberztestEnum(1:Numberzthing),UserIdtestTypedef(1:UserIdthing),map<i32,map<i32,i32>>testMapMap(1:i32hello),map<UserId,map<Numberz,Insanity>>testInsanity(1:Insanityargument),XtructtestMulti(1:i8arg0,2:i32arg1,3:i64arg2,4:map<i16,string>arg3,5:Numberzarg4,6:UserIdarg5),voidtestException(1:stringarg)throws(1:Xceptionerr1),XtructtestMultiException(1:stringarg0,2:stringarg1)throws(1:Xceptionerr1,2:Xception2err2)onewayvoidtestOneway(1:i32secondsToSleep)}serviceSecondService{stringsecondtestString(1:stringthing)}structVersioningTestV1{1:i32begin_in_both,3:stringold_string,12:i32end_in_both}structVersioningTestV2{1:i32begin_in_both,2:i32newint,3:i8newbyte,4:i16newshort,5:i64newlong,6:doublenewdouble7:Bonknewstruct,8:list<i32>newlist,9:set<i32>newset,10:map<i32,i32>newmap,11:stringnewstring,12:i32end_in_both}structListTypeVersioningV1{1:list<i32>myints;2:stringhello;}structListTypeVersioningV2{1:list<string>strings;2:stringhello;}structGuessProtocolStruct{7:map<string,string>map_field,}structLargeDeltas{1:Boolsb1,10:Boolsb10,100:Boolsb100,500:boolcheck_true,1000:Boolsb1000,1500:boolcheck_false,2000:VersioningTestV2vertwo2000,2500:set<string>a_set2500,3000:VersioningTestV2vertwo3000,4000:list<i32>big_numbers}structNestedListsI32x2{1:list<list<i32>>integerlist}structNestedListsI32x3{1:list<list<list<i32>>>integerlist}structNestedMixedx2{1:list<set<i32>>int_set_list2:map<i32,set<string>>map_int_strset3:list<map<i32,set<string>>>map_int_strset_list}structListBonks{1:list<Bonk>bonk}structNestedListsBonk{1:list<list<list<Bonk>>>bonk}structBoolTest{1:optionalboolb=true;2:optionalstrings=\\"true\\";}structStructA{1:requiredstrings;}structStructB{1:optionalStructAaa;2:requiredStructAab;}structOptionalSetDefaultTest{1:optionalset<string>with_default=[\\"test\\"]}<EOF> (namespacec_glibTTest (namespacec_glibTTest namespace c_glib TTest)) (namespacecppthrift.test (namespacecppthrift.test namespace cpp thrift.test)) (namespacedelphiThrift.Test (namespacedelphiThrift.Test namespace delphi Thrift.Test)) (namespacegothrifttest (namespacegothrifttest namespace go thrifttest)) (namespacejavathrift.test (namespacejavathrift.test namespace java thrift.test)) (namespacejsThriftTest (namespacejsThriftTest namespace js ThriftTest)) (namespaceluaThriftTest (namespaceluaThriftTest namespace lua ThriftTest)) (namespacenetstdThriftTest (namespacenetstdThriftTest namespace netstd ThriftTest)) (namespaceperlThriftTest (namespaceperlThriftTest namespace perl ThriftTest)) (namespacephpThriftTest (namespacephpThriftTest namespace php ThriftTest)) (namespacepyThriftTest (namespacepyThriftTest namespace py ThriftTest)) (namespacepy.twistedThriftTest (namespacepy.twistedThriftTest namespace py.twisted ThriftTest)) (namespacerbThrift.Test (namespacerbThrift.Test namespace rb Thrift.Test)) (namespacestThriftTest (namespacestThriftTest namespace st ThriftTest)) (namespacexsdtest(uri='http://thrift.apache.org/ns/ThriftTest') (namespacexsdtest(uri='http://thrift.apache.org/ns/ThriftTest') namespace xsd test ((uri='http://thrift.apache.org/ns/ThriftTest') ( (uri='http://thrift.apache.org/ns/ThriftTest' uri = ('http://thrift.apache.org/ns/ThriftTest' 'http://thrift.apache.org/ns/ThriftTest')) )))) (namespacenoexistThriftTest (namespacenoexistThriftTest namespace noexist ThriftTest)) (namespacecpp.noexistThriftTest (namespacecpp.noexistThriftTest namespace cpp.noexist ThriftTest)) (namespace*thrift.test (namespace*thrift.test namespace * thrift.test)) (enumNumberz{ONE=1,TWO,THREE,FIVE=5,SIX,EIGHT=8} (enumNumberz{ONE=1,TWO,THREE,FIVE=5,SIX,EIGHT=8} enum Numberz { (ONE=1, ONE = (1 1) (, ,)) (TWO, TWO (, ,)) (THREE, THREE (, ,)) (FIVE=5, FIVE = (5 5) (, ,)) (SIX, SIX (, ,)) (EIGHT=8 EIGHT = (8 8)) })) (constNumberzmyNumberz=Numberz.ONE; (constNumberzmyNumberz=Numberz.ONE; const (Numberz Numberz) myNumberz = (Numberz.ONE Numberz.ONE) (; ;))) (typedefi64UserId (typedefi64UserId typedef (i64 (i64 (i64 i64))) UserId)) (structBonk{1:stringmessage,2:i32type} (structBonk{1:stringmessage,2:i32type} struct Bonk { (1:stringmessage, (1: (1 1) :) (string (string (string string))) message (, ,)) (2:i32type (2: (2 2) :) (i32 (i32 (i32 i32))) type) })) (typedefmap<string,Bonk>MapType (typedefmap<string,Bonk>MapType typedef (map<string,Bonk> (map<string,Bonk> (map<string,Bonk> map < (string (string (string string))) , (Bonk Bonk) >))) MapType)) (structBools{1:boolim_true,2:boolim_false,} (structBools{1:boolim_true,2:boolim_false,} struct Bools { (1:boolim_true, (1: (1 1) :) (bool (bool (bool bool))) im_true (, ,)) (2:boolim_false, (2: (2 2) :) (bool (bool (bool bool))) im_false (, ,)) })) (structXtruct{1:stringstring_thing,4:i8byte_thing,9:i32i32_thing,11:i64i64_thing} (structXtruct{1:stringstring_thing,4:i8byte_thing,9:i32i32_thing,11:i64i64_thing} struct Xtruct { (1:stringstring_thing, (1: (1 1) :) (string (string (string string))) string_thing (, ,)) (4:i8byte_thing, (4: (4 4) :) (i8 i8) byte_thing (, ,)) (9:i32i32_thing, (9: (9 9) :) (i32 (i32 (i32 i32))) i32_thing (, ,)) (11:i64i64_thing (11: (11 11) :) (i64 (i64 (i64 i64))) i64_thing) })) (structXtruct2{1:i8byte_thing,2:Xtructstruct_thing,3:i32i32_thing} (structXtruct2{1:i8byte_thing,2:Xtructstruct_thing,3:i32i32_thing} struct Xtruct2 { (1:i8byte_thing, (1: (1 1) :) (i8 i8) byte_thing (, ,)) (2:Xtructstruct_thing, (2: (2 2) :) (Xtruct Xtruct) struct_thing (, ,)) (3:i32i32_thing (3: (3 3) :) (i32 (i32 (i32 i32))) i32_thing) })) (structXtruct3{1:stringstring_thing,4:i32changed,9:i32i32_thing,11:i64i64_thing} (structXtruct3{1:stringstring_thing,4:i32changed,9:i32i32_thing,11:i64i64_thing} struct Xtruct3 { (1:stringstring_thing, (1: (1 1) :) (string (string (string string))) string_thing (, ,)) (4:i32changed, (4: (4 4) :) (i32 (i32 (i32 i32))) changed (, ,)) (9:i32i32_thing, (9: (9 9) :) (i32 (i32 (i32 i32))) i32_thing (, ,)) (11:i64i64_thing (11: (11 11) :) (i64 (i64 (i64 i64))) i64_thing) })) (structInsanity{1:map<Numberz,UserId>userMap,2:list<Xtruct>xtructs}(python.immutable=\\"\\") (structInsanity{1:map<Numberz,UserId>userMap,2:list<Xtruct>xtructs}(python.immutable=\\"\\") struct Insanity { (1:map<Numberz,UserId>userMap, (1: (1 1) :) (map<Numberz,UserId> (map<Numberz,UserId> (map<Numberz,UserId> map < (Numberz Numberz) , (UserId UserId) >))) userMap (, ,)) (2:list<Xtruct>xtructs (2: (2 2) :) (list<Xtruct> (list<Xtruct> (list<Xtruct> list < (Xtruct Xtruct) >))) xtructs) } ((python.immutable=\\"\\") ( (python.immutable=\\"\\" python.immutable = (\\"\\" \\"\\")) )))) (structCrazyNesting{1:stringstring_field,2:optionalset<Insanity>set_field,3:requiredlist<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>>list_field,4:binarybinary_field} (structCrazyNesting{1:stringstring_field,2:optionalset<Insanity>set_field,3:requiredlist<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>>list_field,4:binarybinary_field} struct CrazyNesting { (1:stringstring_field, (1: (1 1) :) (string (string (string string))) string_field (, ,)) (2:optionalset<Insanity>set_field, (2: (2 2) :) (optional optional) (set<Insanity> (set<Insanity> (set<Insanity> set < (Insanity Insanity) >))) set_field (, ,)) (3:requiredlist<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>>list_field, (3: (3 3) :) (required required) (list<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>> (list<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>> (list<map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>>> list < (map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>> (map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>> (map<set<i32>(python.immutable=\\"\\"),map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>>> map < (set<i32>(python.immutable=\\"\\") (set<i32>(python.immutable=\\"\\") (set<i32> set < (i32 (i32 (i32 i32))) >) ((python.immutable=\\"\\") ( (python.immutable=\\"\\" python.immutable = (\\"\\" \\"\\")) )))) , (map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>> (map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>> (map<i32,set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")>> map < (i32 (i32 (i32 i32))) , (set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")> (set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")> (set<list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\")> set < (list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\") (list<map<Insanity,string>(python.immutable=\\"\\")>(python.immutable=\\"\\") (list<map<Insanity,string>(python.immutable=\\"\\")> list < (map<Insanity,string>(python.immutable=\\"\\") (map<Insanity,string>(python.immutable=\\"\\") (map<Insanity,string> map < (Insanity Insanity) , (string (string (string string))) >) ((python.immutable=\\"\\") ( (python.immutable=\\"\\" python.immutable = (\\"\\" \\"\\")) )))) >) ((python.immutable=\\"\\") ( (python.immutable=\\"\\" python.immutable = (\\"\\" \\"\\")) )))) >))) >))) >))) >))) list_field (, ,)) (4:binarybinary_field (4: (4 4) :) (binary (binary (binary binary))) binary_field) })) (unionSomeUnion{1:map<Numberz,UserId>map_thing,2:stringstring_thing,3:i32i32_thing,4:Xtruct3xtruct_thing,5:Insanityinsanity_thing} (unionSomeUnion{1:map<Numberz,UserId>map_thing,2:stringstring_thing,3:i32i32_thing,4:Xtruct3xtruct_thing,5:Insanityinsanity_thing} union SomeUnion { (1:map<Numberz,UserId>map_thing, (1: (1 1) :) (map<Numberz,UserId> (map<Numberz,UserId> (map<Numberz,UserId> map < (Numberz Numberz) , (UserId UserId) >))) map_thing (, ,)) (2:stringstring_thing, (2: (2 2) :) (string (string (string string))) string_thing (, ,)) (3:i32i32_thing, (3: (3 3) :) (i32 (i32 (i32 i32))) i32_thing (, ,)) (4:Xtruct3xtruct_thing, (4: (4 4) :) (Xtruct3 Xtruct3) xtruct_thing (, ,)) (5:Insanityinsanity_thing (5: (5 5) :) (Insanity Insanity) insanity_thing) })) (exceptionXception{1:i32errorCode,2:stringmessage} (exceptionXception{1:i32errorCode,2:stringmessage} exception Xception { (1:i32errorCode, (1: (1 1) :) (i32 (i32 (i32 i32))) errorCode (, ,)) (2:stringmessage (2: (2 2) :) (string (string (string string))) message) })) (exceptionXception2{1:i32errorCode,2:Xtructstruct_thing} (exceptionXception2{1:i32errorCode,2:Xtructstruct_thing} exception Xception2 { (1:i32errorCode, (1: (1 1) :) (i32 (i32 (i32 i32))) errorCode (, ,)) (2:Xtructstruct_thing (2: (2 2) :) (Xtruct Xtruct) struct_thing) })) (structEmptyStruct{} (structEmptyStruct{} struct EmptyStruct { })) (structOneField{1:EmptyStructfield} (structOneField{1:EmptyStructfield} struct OneField { (1:EmptyStructfield (1: (1 1) :) (EmptyStruct EmptyStruct) field) })) (serviceThriftTest{voidtestVoid(),stringtestString(1:stringthing),booltestBool(1:boolthing),i8testByte(1:i8thing),i32testI32(1:i32thing),i64testI64(1:i64thing),doubletestDouble(1:doublething),binarytestBinary(1:binarything),XtructtestStruct(1:Xtructthing),Xtruct2testNest(1:Xtruct2thing),map<i32,i32>testMap(1:map<i32,i32>thing),map<string,string>testStringMap(1:map<string,string>thing),set<i32>testSet(1:set<i32>thing),list<i32>testList(1:list<i32>thing),NumberztestEnum(1:Numberzthing),UserIdtestTypedef(1:UserIdthing),map<i32,map<i32,i32>>testMapMap(1:i32hello),map<UserId,map<Numberz,Insanity>>testInsanity(1:Insanityargument),XtructtestMulti(1:i8arg0,2:i32arg1,3:i64arg2,4:map<i16,string>arg3,5:Numberzarg4,6:UserIdarg5),voidtestException(1:stringarg)throws(1:Xceptionerr1),XtructtestMultiException(1:stringarg0,2:stringarg1)throws(1:Xceptionerr1,2:Xception2err2)onewayvoidtestOneway(1:i32secondsToSleep)} (serviceThriftTest{voidtestVoid(),stringtestString(1:stringthing),booltestBool(1:boolthing),i8testByte(1:i8thing),i32testI32(1:i32thing),i64testI64(1:i64thing),doubletestDouble(1:doublething),binarytestBinary(1:binarything),XtructtestStruct(1:Xtructthing),Xtruct2testNest(1:Xtruct2thing),map<i32,i32>testMap(1:map<i32,i32>thing),map<string,string>testStringMap(1:map<string,string>thing),set<i32>testSet(1:set<i32>thing),list<i32>testList(1:list<i32>thing),NumberztestEnum(1:Numberzthing),UserIdtestTypedef(1:UserIdthing),map<i32,map<i32,i32>>testMapMap(1:i32hello),map<UserId,map<Numberz,Insanity>>testInsanity(1:Insanityargument),XtructtestMulti(1:i8arg0,2:i32arg1,3:i64arg2,4:map<i16,string>arg3,5:Numberzarg4,6:UserIdarg5),voidtestException(1:stringarg)throws(1:Xceptionerr1),XtructtestMultiException(1:stringarg0,2:stringarg1)throws(1:Xceptionerr1,2:Xception2err2)onewayvoidtestOneway(1:i32secondsToSleep)} service ThriftTest { (voidtestVoid(), (void void) testVoid ( ) (, ,)) (stringtestString(1:stringthing), (string (string (string (string string)))) testString ( (1:stringthing (1: (1 1) :) (string (string (string string))) thing) ) (, ,)) (booltestBool(1:boolthing), (bool (bool (bool (bool bool)))) testBool ( (1:boolthing (1: (1 1) :) (bool (bool (bool bool))) thing) ) (, ,)) (i8testByte(1:i8thing), (i8 (i8 i8)) testByte ( (1:i8thing (1: (1 1) :) (i8 i8) thing) ) (, ,)) (i32testI32(1:i32thing), (i32 (i32 (i32 (i32 i32)))) testI32 ( (1:i32thing (1: (1 1) :) (i32 (i32 (i32 i32))) thing) ) (, ,)) (i64testI64(1:i64thing), (i64 (i64 (i64 (i64 i64)))) testI64 ( (1:i64thing (1: (1 1) :) (i64 (i64 (i64 i64))) thing) ) (, ,)) (doubletestDouble(1:doublething), (double (double (double (double double)))) testDouble ( (1:doublething (1: (1 1) :) (double (double (double double))) thing) ) (, ,)) (binarytestBinary(1:binarything), (binary (binary (binary (binary binary)))) testBinary ( (1:binarything (1: (1 1) :) (binary (binary (binary binary))) thing) ) (, ,)) (XtructtestStruct(1:Xtructthing), (Xtruct (Xtruct Xtruct)) testStruct ( (1:Xtructthing (1: (1 1) :) (Xtruct Xtruct) thing) ) (, ,)) (Xtruct2testNest(1:Xtruct2thing), (Xtruct2 (Xtruct2 Xtruct2)) testNest ( (1:Xtruct2thing (1: (1 1) :) (Xtruct2 Xtruct2) thing) ) (, ,)) (map<i32,i32>testMap(1:map<i32,i32>thing), (map<i32,i32> (map<i32,i32> (map<i32,i32> (map<i32,i32> map < (i32 (i32 (i32 i32))) , (i32 (i32 (i32 i32))) >)))) testMap ( (1:map<i32,i32>thing (1: (1 1) :) (map<i32,i32> (map<i32,i32> (map<i32,i32> map < (i32 (i32 (i32 i32))) , (i32 (i32 (i32 i32))) >))) thing) ) (, ,)) (map<string,string>testStringMap(1:map<string,string>thing), (map<string,string> (map<string,string> (map<string,string> (map<string,string> map < (string (string (string string))) , (string (string (string string))) >)))) testStringMap ( (1:map<string,string>thing (1: (1 1) :) (map<string,string> (map<string,string> (map<string,string> map < (string (string (string string))) , (string (string (string string))) >))) thing) ) (, ,)) (set<i32>testSet(1:set<i32>thing), (set<i32> (set<i32> (set<i32> (set<i32> set < (i32 (i32 (i32 i32))) >)))) testSet ( (1:set<i32>thing (1: (1 1) :) (set<i32> (set<i32> (set<i32> set < (i32 (i32 (i32 i32))) >))) thing) ) (, ,)) (list<i32>testList(1:list<i32>thing), (list<i32> (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >)))) testList ( (1:list<i32>thing (1: (1 1) :) (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) thing) ) (, ,)) (NumberztestEnum(1:Numberzthing), (Numberz (Numberz Numberz)) testEnum ( (1:Numberzthing (1: (1 1) :) (Numberz Numberz) thing) ) (, ,)) (UserIdtestTypedef(1:UserIdthing), (UserId (UserId UserId)) testTypedef ( (1:UserIdthing (1: (1 1) :) (UserId UserId) thing) ) (, ,)) (map<i32,map<i32,i32>>testMapMap(1:i32hello), (map<i32,map<i32,i32>> (map<i32,map<i32,i32>> (map<i32,map<i32,i32>> (map<i32,map<i32,i32>> map < (i32 (i32 (i32 i32))) , (map<i32,i32> (map<i32,i32> (map<i32,i32> map < (i32 (i32 (i32 i32))) , (i32 (i32 (i32 i32))) >))) >)))) testMapMap ( (1:i32hello (1: (1 1) :) (i32 (i32 (i32 i32))) hello) ) (, ,)) (map<UserId,map<Numberz,Insanity>>testInsanity(1:Insanityargument), (map<UserId,map<Numberz,Insanity>> (map<UserId,map<Numberz,Insanity>> (map<UserId,map<Numberz,Insanity>> (map<UserId,map<Numberz,Insanity>> map < (UserId UserId) , (map<Numberz,Insanity> (map<Numberz,Insanity> (map<Numberz,Insanity> map < (Numberz Numberz) , (Insanity Insanity) >))) >)))) testInsanity ( (1:Insanityargument (1: (1 1) :) (Insanity Insanity) argument) ) (, ,)) (XtructtestMulti(1:i8arg0,2:i32arg1,3:i64arg2,4:map<i16,string>arg3,5:Numberzarg4,6:UserIdarg5), (Xtruct (Xtruct Xtruct)) testMulti ( (1:i8arg0, (1: (1 1) :) (i8 i8) arg0 (, ,)) (2:i32arg1, (2: (2 2) :) (i32 (i32 (i32 i32))) arg1 (, ,)) (3:i64arg2, (3: (3 3) :) (i64 (i64 (i64 i64))) arg2 (, ,)) (4:map<i16,string>arg3, (4: (4 4) :) (map<i16,string> (map<i16,string> (map<i16,string> map < (i16 (i16 (i16 i16))) , (string (string (string string))) >))) arg3 (, ,)) (5:Numberzarg4, (5: (5 5) :) (Numberz Numberz) arg4 (, ,)) (6:UserIdarg5 (6: (6 6) :) (UserId UserId) arg5) ) (, ,)) (voidtestException(1:stringarg)throws(1:Xceptionerr1), (void void) testException ( (1:stringarg (1: (1 1) :) (string (string (string string))) arg) ) (throws(1:Xceptionerr1) throws ( (1:Xceptionerr1 (1: (1 1) :) (Xception Xception) err1) )) (, ,)) (XtructtestMultiException(1:stringarg0,2:stringarg1)throws(1:Xceptionerr1,2:Xception2err2) (Xtruct (Xtruct Xtruct)) testMultiException ( (1:stringarg0, (1: (1 1) :) (string (string (string string))) arg0 (, ,)) (2:stringarg1 (2: (2 2) :) (string (string (string string))) arg1) ) (throws(1:Xceptionerr1,2:Xception2err2) throws ( (1:Xceptionerr1, (1: (1 1) :) (Xception Xception) err1 (, ,)) (2:Xception2err2 (2: (2 2) :) (Xception2 Xception2) err2) ))) (onewayvoidtestOneway(1:i32secondsToSleep) (oneway oneway) (void void) testOneway ( (1:i32secondsToSleep (1: (1 1) :) (i32 (i32 (i32 i32))) secondsToSleep) )) })) (serviceSecondService{stringsecondtestString(1:stringthing)} (serviceSecondService{stringsecondtestString(1:stringthing)} service SecondService { (stringsecondtestString(1:stringthing) (string (string (string (string string)))) secondtestString ( (1:stringthing (1: (1 1) :) (string (string (string string))) thing) )) })) (structVersioningTestV1{1:i32begin_in_both,3:stringold_string,12:i32end_in_both} (structVersioningTestV1{1:i32begin_in_both,3:stringold_string,12:i32end_in_both} struct VersioningTestV1 { (1:i32begin_in_both, (1: (1 1) :) (i32 (i32 (i32 i32))) begin_in_both (, ,)) (3:stringold_string, (3: (3 3) :) (string (string (string string))) old_string (, ,)) (12:i32end_in_both (12: (12 12) :) (i32 (i32 (i32 i32))) end_in_both) })) (structVersioningTestV2{1:i32begin_in_both,2:i32newint,3:i8newbyte,4:i16newshort,5:i64newlong,6:doublenewdouble7:Bonknewstruct,8:list<i32>newlist,9:set<i32>newset,10:map<i32,i32>newmap,11:stringnewstring,12:i32end_in_both} (structVersioningTestV2{1:i32begin_in_both,2:i32newint,3:i8newbyte,4:i16newshort,5:i64newlong,6:doublenewdouble7:Bonknewstruct,8:list<i32>newlist,9:set<i32>newset,10:map<i32,i32>newmap,11:stringnewstring,12:i32end_in_both} struct VersioningTestV2 { (1:i32begin_in_both, (1: (1 1) :) (i32 (i32 (i32 i32))) begin_in_both (, ,)) (2:i32newint, (2: (2 2) :) (i32 (i32 (i32 i32))) newint (, ,)) (3:i8newbyte, (3: (3 3) :) (i8 i8) newbyte (, ,)) (4:i16newshort, (4: (4 4) :) (i16 (i16 (i16 i16))) newshort (, ,)) (5:i64newlong, (5: (5 5) :) (i64 (i64 (i64 i64))) newlong (, ,)) (6:doublenewdouble (6: (6 6) :) (double (double (double double))) newdouble) (7:Bonknewstruct, (7: (7 7) :) (Bonk Bonk) newstruct (, ,)) (8:list<i32>newlist, (8: (8 8) :) (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) newlist (, ,)) (9:set<i32>newset, (9: (9 9) :) (set<i32> (set<i32> (set<i32> set < (i32 (i32 (i32 i32))) >))) newset (, ,)) (10:map<i32,i32>newmap, (10: (10 10) :) (map<i32,i32> (map<i32,i32> (map<i32,i32> map < (i32 (i32 (i32 i32))) , (i32 (i32 (i32 i32))) >))) newmap (, ,)) (11:stringnewstring, (11: (11 11) :) (string (string (string string))) newstring (, ,)) (12:i32end_in_both (12: (12 12) :) (i32 (i32 (i32 i32))) end_in_both) })) (structListTypeVersioningV1{1:list<i32>myints;2:stringhello;} (structListTypeVersioningV1{1:list<i32>myints;2:stringhello;} struct ListTypeVersioningV1 { (1:list<i32>myints; (1: (1 1) :) (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) myints (; ;)) (2:stringhello; (2: (2 2) :) (string (string (string string))) hello (; ;)) })) (structListTypeVersioningV2{1:list<string>strings;2:stringhello;} (structListTypeVersioningV2{1:list<string>strings;2:stringhello;} struct ListTypeVersioningV2 { (1:list<string>strings; (1: (1 1) :) (list<string> (list<string> (list<string> list < (string (string (string string))) >))) strings (; ;)) (2:stringhello; (2: (2 2) :) (string (string (string string))) hello (; ;)) })) (structGuessProtocolStruct{7:map<string,string>map_field,} (structGuessProtocolStruct{7:map<string,string>map_field,} struct GuessProtocolStruct { (7:map<string,string>map_field, (7: (7 7) :) (map<string,string> (map<string,string> (map<string,string> map < (string (string (string string))) , (string (string (string string))) >))) map_field (, ,)) })) (structLargeDeltas{1:Boolsb1,10:Boolsb10,100:Boolsb100,500:boolcheck_true,1000:Boolsb1000,1500:boolcheck_false,2000:VersioningTestV2vertwo2000,2500:set<string>a_set2500,3000:VersioningTestV2vertwo3000,4000:list<i32>big_numbers} (structLargeDeltas{1:Boolsb1,10:Boolsb10,100:Boolsb100,500:boolcheck_true,1000:Boolsb1000,1500:boolcheck_false,2000:VersioningTestV2vertwo2000,2500:set<string>a_set2500,3000:VersioningTestV2vertwo3000,4000:list<i32>big_numbers} struct LargeDeltas { (1:Boolsb1, (1: (1 1) :) (Bools Bools) b1 (, ,)) (10:Boolsb10, (10: (10 10) :) (Bools Bools) b10 (, ,)) (100:Boolsb100, (100: (100 100) :) (Bools Bools) b100 (, ,)) (500:boolcheck_true, (500: (500 500) :) (bool (bool (bool bool))) check_true (, ,)) (1000:Boolsb1000, (1000: (1000 1000) :) (Bools Bools) b1000 (, ,)) (1500:boolcheck_false, (1500: (1500 1500) :) (bool (bool (bool bool))) check_false (, ,)) (2000:VersioningTestV2vertwo2000, (2000: (2000 2000) :) (VersioningTestV2 VersioningTestV2) vertwo2000 (, ,)) (2500:set<string>a_set2500, (2500: (2500 2500) :) (set<string> (set<string> (set<string> set < (string (string (string string))) >))) a_set2500 (, ,)) (3000:VersioningTestV2vertwo3000, (3000: (3000 3000) :) (VersioningTestV2 VersioningTestV2) vertwo3000 (, ,)) (4000:list<i32>big_numbers (4000: (4000 4000) :) (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) big_numbers) })) (structNestedListsI32x2{1:list<list<i32>>integerlist} (structNestedListsI32x2{1:list<list<i32>>integerlist} struct NestedListsI32x2 { (1:list<list<i32>>integerlist (1: (1 1) :) (list<list<i32>> (list<list<i32>> (list<list<i32>> list < (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) >))) integerlist) })) (structNestedListsI32x3{1:list<list<list<i32>>>integerlist} (structNestedListsI32x3{1:list<list<list<i32>>>integerlist} struct NestedListsI32x3 { (1:list<list<list<i32>>>integerlist (1: (1 1) :) (list<list<list<i32>>> (list<list<list<i32>>> (list<list<list<i32>>> list < (list<list<i32>> (list<list<i32>> (list<list<i32>> list < (list<i32> (list<i32> (list<i32> list < (i32 (i32 (i32 i32))) >))) >))) >))) integerlist) })) (structNestedMixedx2{1:list<set<i32>>int_set_list2:map<i32,set<string>>map_int_strset3:list<map<i32,set<string>>>map_int_strset_list} (structNestedMixedx2{1:list<set<i32>>int_set_list2:map<i32,set<string>>map_int_strset3:list<map<i32,set<string>>>map_int_strset_list} struct NestedMixedx2 { (1:list<set<i32>>int_set_list (1: (1 1) :) (list<set<i32>> (list<set<i32>> (list<set<i32>> list < (set<i32> (set<i32> (set<i32> set < (i32 (i32 (i32 i32))) >))) >))) int_set_list) (2:map<i32,set<string>>map_int_strset (2: (2 2) :) (map<i32,set<string>> (map<i32,set<string>> (map<i32,set<string>> map < (i32 (i32 (i32 i32))) , (set<string> (set<string> (set<string> set < (string (string (string string))) >))) >))) map_int_strset) (3:list<map<i32,set<string>>>map_int_strset_list (3: (3 3) :) (list<map<i32,set<string>>> (list<map<i32,set<string>>> (list<map<i32,set<string>>> list < (map<i32,set<string>> (map<i32,set<string>> (map<i32,set<string>> map < (i32 (i32 (i32 i32))) , (set<string> (set<string> (set<string> set < (string (string (string string))) >))) >))) >))) map_int_strset_list) })) (structListBonks{1:list<Bonk>bonk} (structListBonks{1:list<Bonk>bonk} struct ListBonks { (1:list<Bonk>bonk (1: (1 1) :) (list<Bonk> (list<Bonk> (list<Bonk> list < (Bonk Bonk) >))) bonk) })) (structNestedListsBonk{1:list<list<list<Bonk>>>bonk} (structNestedListsBonk{1:list<list<list<Bonk>>>bonk} struct NestedListsBonk { (1:list<list<list<Bonk>>>bonk (1: (1 1) :) (list<list<list<Bonk>>> (list<list<list<Bonk>>> (list<list<list<Bonk>>> list < (list<list<Bonk>> (list<list<Bonk>> (list<list<Bonk>> list < (list<Bonk> (list<Bonk> (list<Bonk> list < (Bonk Bonk) >))) >))) >))) bonk) })) (structBoolTest{1:optionalboolb=true;2:optionalstrings=\\"true\\";} (structBoolTest{1:optionalboolb=true;2:optionalstrings=\\"true\\";} struct BoolTest { (1:optionalboolb=true; (1: (1 1) :) (optional optional) (bool (bool (bool bool))) b = (true true) (; ;)) (2:optionalstrings=\\"true\\"; (2: (2 2) :) (optional optional) (string (string (string string))) s = (\\"true\\" \\"true\\") (; ;)) })) (structStructA{1:requiredstrings;} (structStructA{1:requiredstrings;} struct StructA { (1:requiredstrings; (1: (1 1) :) (required required) (string (string (string string))) s (; ;)) })) (structStructB{1:optionalStructAaa;2:requiredStructAab;} (structStructB{1:optionalStructAaa;2:requiredStructAab;} struct StructB { (1:optionalStructAaa; (1: (1 1) :) (optional optional) (StructA StructA) aa (; ;)) (2:requiredStructAab; (2: (2 2) :) (required required) (StructA StructA) ab (; ;)) })) (structOptionalSetDefaultTest{1:optionalset<string>with_default=[\\"test\\"]} (structOptionalSetDefaultTest{1:optionalset<string>with_default=[\\"test\\"]} struct OptionalSetDefaultTest { (1:optionalset<string>with_default=[\\"test\\"] (1: (1 1) :) (optional optional) (set<string> (set<string> (set<string> set < (string (string (string string))) >))) with_default = ([\\"test\\"] ([\\"test\\"] [ (\\"test\\" \\"test\\") ]))) })) <EOF>)"`;
+exports[`Thrift Parser > view token 2`] = `
+"[line=18] [type=51] [channel=1] [tokenIndex=1] [startIndex=803] [stopIndex=804]
 
-exports[`Thrift Parser > load files 3`] = `"(conststringdefault_user=\\"\\\\'default_user\\\\'\\";conststringdefault_name='\\"abc\\\\'s\\"';<EOF> (conststringdefault_user=\\"\\\\'default_user\\\\'\\"; (conststringdefault_user=\\"\\\\'default_user\\\\'\\"; const (string (string (string string))) default_user = (\\"\\\\'default_user\\\\'\\" \\"\\\\'default_user\\\\'\\") (; ;))) (conststringdefault_name='\\"abc\\\\'s\\"'; (conststringdefault_name='\\"abc\\\\'s\\"'; const (string (string (string string))) default_name = ('\\"abc\\\\'s\\"' '\\"abc\\\\'s\\"') (; ;))) <EOF>)"`;
 
-exports[`Thrift Parser > load files 4`] = `"(namespacepysharedstructSharedStruct{1:i32key2:stringvalue}serviceSharedService{SharedStructgetStruct(1:i32key)}<EOF> (namespacepyshared (namespacepyshared namespace py shared)) (structSharedStruct{1:i32key2:stringvalue} (structSharedStruct{1:i32key2:stringvalue} struct SharedStruct { (1:i32key (1: (1 1) :) (i32 (i32 (i32 i32))) key) (2:stringvalue (2: (2 2) :) (string (string (string string))) value) })) (serviceSharedService{SharedStructgetStruct(1:i32key)} (serviceSharedService{SharedStructgetStruct(1:i32key)} service SharedService { (SharedStructgetStruct(1:i32key) (SharedStruct (SharedStruct SharedStruct)) getStruct ( (1:i32key (1: (1 1) :) (i32 (i32 (i32 i32))) key) )) })) <EOF>)"`;
+"
+`;
 
-exports[`Thrift Parser > load files 5`] = `"(include\\"shared.thrift\\"<EOF> (include\\"shared.thrift\\" (include\\"shared.thrift\\" include \\"shared.thrift\\")) <EOF>)"`;
+exports[`Thrift Parser > view token 3`] = `
+"[line=20] [type=9] [channel=0] [tokenIndex=2] [startIndex=805] [stopIndex=811]
+typedef"
+`;
 
-exports[`Thrift Parser > load files 6`] = `"(include\\"shared.thrift\\"namespacepytutorialtypedefi32MyIntegerconsti32INT32CONSTANT=9853constmap<string,string>MAPCONSTANT={'hello':'world','goodnight':'moon'}constdoubleDOUBLE_CONSTANT=98.53333333222constdoubleDOUBLE_CONSTANT2=1.35E10enumOperation{ADD=1,SUBTRACT=2,MULTIPLY=3,DIVIDE=4;LESS=-1;}structWork{1:i32num1=0,2:i32num2,3:Operationop,4:optionalstringcomment,}exceptionInvalidOperation{1:i32whatOp,2:stringwhy=\\"ok? what the dog\\";}serviceCalculatorextendsshared.SharedService{voidping(),i32add(1:i32num1,2:i32num2),i32calculate(1:i32logid,2:Workw)throws(1:InvalidOperationouch),onewayvoidzip()}<EOF> (include\\"shared.thrift\\" (include\\"shared.thrift\\" include \\"shared.thrift\\")) (namespacepytutorial (namespacepytutorial namespace py tutorial)) (typedefi32MyInteger (typedefi32MyInteger typedef (i32 (i32 (i32 i32))) MyInteger)) (consti32INT32CONSTANT=9853 (consti32INT32CONSTANT=9853 const (i32 (i32 (i32 i32))) INT32CONSTANT = (9853 (9853 9853)))) (constmap<string,string>MAPCONSTANT={'hello':'world','goodnight':'moon'} (constmap<string,string>MAPCONSTANT={'hello':'world','goodnight':'moon'} const (map<string,string> (map<string,string> (map<string,string> map < (string (string (string string))) , (string (string (string string))) >))) MAPCONSTANT = ({'hello':'world','goodnight':'moon'} ({'hello':'world','goodnight':'moon'} { ('hello':'world', ('hello' 'hello') : ('world' 'world') (, ,)) ('goodnight':'moon' ('goodnight' 'goodnight') : ('moon' 'moon')) })))) (constdoubleDOUBLE_CONSTANT=98.53333333222 (constdoubleDOUBLE_CONSTANT=98.53333333222 const (double (double (double double))) DOUBLE_CONSTANT = (98.53333333222 98.53333333222))) (constdoubleDOUBLE_CONSTANT2=1.35E10 (constdoubleDOUBLE_CONSTANT2=1.35E10 const (double (double (double double))) DOUBLE_CONSTANT2 = (1.35E10 1.35E10))) (enumOperation{ADD=1,SUBTRACT=2,MULTIPLY=3,DIVIDE=4;LESS=-1;} (enumOperation{ADD=1,SUBTRACT=2,MULTIPLY=3,DIVIDE=4;LESS=-1;} enum Operation { (ADD=1, ADD = (1 1) (, ,)) (SUBTRACT=2, SUBTRACT = (2 2) (, ,)) (MULTIPLY=3, MULTIPLY = (3 3) (, ,)) (DIVIDE=4; DIVIDE = (4 4) (; ;)) (LESS=-1; LESS = (-1 -1) (; ;)) })) (structWork{1:i32num1=0,2:i32num2,3:Operationop,4:optionalstringcomment,} (structWork{1:i32num1=0,2:i32num2,3:Operationop,4:optionalstringcomment,} struct Work { (1:i32num1=0, (1: (1 1) :) (i32 (i32 (i32 i32))) num1 = (0 (0 0)) (, ,)) (2:i32num2, (2: (2 2) :) (i32 (i32 (i32 i32))) num2 (, ,)) (3:Operationop, (3: (3 3) :) (Operation Operation) op (, ,)) (4:optionalstringcomment, (4: (4 4) :) (optional optional) (string (string (string string))) comment (, ,)) })) (exceptionInvalidOperation{1:i32whatOp,2:stringwhy=\\"ok? what the dog\\";} (exceptionInvalidOperation{1:i32whatOp,2:stringwhy=\\"ok? what the dog\\";} exception InvalidOperation { (1:i32whatOp, (1: (1 1) :) (i32 (i32 (i32 i32))) whatOp (, ,)) (2:stringwhy=\\"ok? what the dog\\"; (2: (2 2) :) (string (string (string string))) why = (\\"ok? what the dog\\" \\"ok? what the dog\\") (; ;)) })) (serviceCalculatorextendsshared.SharedService{voidping(),i32add(1:i32num1,2:i32num2),i32calculate(1:i32logid,2:Workw)throws(1:InvalidOperationouch),onewayvoidzip()} (serviceCalculatorextendsshared.SharedService{voidping(),i32add(1:i32num1,2:i32num2),i32calculate(1:i32logid,2:Workw)throws(1:InvalidOperationouch),onewayvoidzip()} service Calculator extends shared.SharedService { (voidping(), (void void) ping ( ) (, ,)) (i32add(1:i32num1,2:i32num2), (i32 (i32 (i32 (i32 i32)))) add ( (1:i32num1, (1: (1 1) :) (i32 (i32 (i32 i32))) num1 (, ,)) (2:i32num2 (2: (2 2) :) (i32 (i32 (i32 i32))) num2) ) (, ,)) (i32calculate(1:i32logid,2:Workw)throws(1:InvalidOperationouch), (i32 (i32 (i32 (i32 i32)))) calculate ( (1:i32logid, (1: (1 1) :) (i32 (i32 (i32 i32))) logid (, ,)) (2:Workw (2: (2 2) :) (Work Work) w) ) (throws(1:InvalidOperationouch) throws ( (1:InvalidOperationouch (1: (1 1) :) (InvalidOperation InvalidOperation) ouch) )) (, ,)) (onewayvoidzip() (oneway oneway) (void void) zip ( )) })) <EOF>)"`;
+exports[`Thrift Parser > view token 4`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=3] [startIndex=812] [stopIndex=812]
+ "
+`;
+
+exports[`Thrift Parser > view token 5`] = `
+"[line=20] [type=32] [channel=0] [tokenIndex=4] [startIndex=813] [stopIndex=816]
+list"
+`;
+
+exports[`Thrift Parser > view token 6`] = `
+"[line=20] [type=29] [channel=0] [tokenIndex=5] [startIndex=817] [stopIndex=817]
+<"
+`;
+
+exports[`Thrift Parser > view token 7`] = `
+"[line=20] [type=43] [channel=0] [tokenIndex=6] [startIndex=818] [stopIndex=820]
+i32"
+`;
+
+exports[`Thrift Parser > view token 8`] = `
+"[line=20] [type=30] [channel=0] [tokenIndex=7] [startIndex=821] [stopIndex=821]
+>"
+`;
+
+exports[`Thrift Parser > view token 9`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=8] [startIndex=822] [stopIndex=822]
+ "
+`;
+
+exports[`Thrift Parser > view token 10`] = `
+"[line=20] [type=22] [channel=0] [tokenIndex=9] [startIndex=823] [stopIndex=823]
+("
+`;
+
+exports[`Thrift Parser > view token 11`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=10] [startIndex=824] [stopIndex=824]
+ "
+`;
+
+exports[`Thrift Parser > view token 12`] = `
+"[line=20] [type=49] [channel=0] [tokenIndex=11] [startIndex=825] [stopIndex=836]
+cpp.template"
+`;
+
+exports[`Thrift Parser > view token 13`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=12] [startIndex=837] [stopIndex=837]
+ "
+`;
+
+exports[`Thrift Parser > view token 14`] = `
+"[line=20] [type=8] [channel=0] [tokenIndex=13] [startIndex=838] [stopIndex=838]
+="
+`;
+
+exports[`Thrift Parser > view token 15`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=14] [startIndex=839] [stopIndex=839]
+ "
+`;
+
+exports[`Thrift Parser > view token 16`] = `
+"[line=20] [type=48] [channel=0] [tokenIndex=15] [startIndex=840] [stopIndex=850]
+\\"std::list\\""
+`;
+
+exports[`Thrift Parser > view token 17`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=16] [startIndex=851] [stopIndex=851]
+ "
+`;
+
+exports[`Thrift Parser > view token 18`] = `
+"[line=20] [type=23] [channel=0] [tokenIndex=17] [startIndex=852] [stopIndex=852]
+)"
+`;
+
+exports[`Thrift Parser > view token 19`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=18] [startIndex=853] [stopIndex=853]
+ "
+`;
+
+exports[`Thrift Parser > view token 20`] = `
+"[line=20] [type=49] [channel=0] [tokenIndex=19] [startIndex=854] [stopIndex=868]
+int_linked_list"
+`;
+
+exports[`Thrift Parser > view token 21`] = `
+"[line=20] [type=51] [channel=1] [tokenIndex=20] [startIndex=869] [stopIndex=870]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 22`] = `
+"[line=22] [type=52] [channel=2] [tokenIndex=21] [startIndex=871] [stopIndex=921]
+//const string default_user = \\"\\\\'default_user\\\\'\\" ;
+"
+`;
+
+exports[`Thrift Parser > view token 23`] = `
+"[line=23] [type=52] [channel=2] [tokenIndex=22] [startIndex=922] [stopIndex=964]
+//const string default_name = '\\"abc\\\\'s\\"' ;
+"
+`;
+
+exports[`Thrift Parser > view token 24`] = `
+"[line=24] [type=53] [channel=2] [tokenIndex=23] [startIndex=965] [stopIndex=1149]
+/*
+struct User {
+  1: i32 id        (go.tag=\\"gorm:\\\\\\"primary_key\\\\\\" json:\\\\\\"id\\\\\\"\\");
+  2: i32 age       (go.tag=\\"json:\\\\\\"age\\\\\\"\\");
+  3: string name   (go.tag=\\"json:\\\\\\"name\\\\\\" sq:\\\\\\"eq,\\\\\\"\\");
+}
+*/"
+`;
+
+exports[`Thrift Parser > view token 25`] = `
+"[line=30] [type=51] [channel=1] [tokenIndex=24] [startIndex=1150] [stopIndex=1151]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 26`] = `
+"[line=32] [type=14] [channel=0] [tokenIndex=25] [startIndex=1152] [stopIndex=1157]
+struct"
+`;
+
+exports[`Thrift Parser > view token 27`] = `
+"[line=32] [type=51] [channel=1] [tokenIndex=26] [startIndex=1158] [stopIndex=1158]
+ "
+`;
+
+exports[`Thrift Parser > view token 28`] = `
+"[line=32] [type=49] [channel=0] [tokenIndex=27] [startIndex=1159] [stopIndex=1161]
+foo"
+`;
+
+exports[`Thrift Parser > view token 29`] = `
+"[line=32] [type=51] [channel=1] [tokenIndex=28] [startIndex=1162] [stopIndex=1162]
+ "
+`;
+
+exports[`Thrift Parser > view token 30`] = `
+"[line=32] [type=11] [channel=0] [tokenIndex=29] [startIndex=1163] [stopIndex=1163]
+{"
+`;
+
+exports[`Thrift Parser > view token 31`] = `
+"[line=32] [type=51] [channel=1] [tokenIndex=30] [startIndex=1164] [stopIndex=1166]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 32`] = `
+"[line=33] [type=37] [channel=0] [tokenIndex=31] [startIndex=1167] [stopIndex=1167]
+1"
+`;
+
+exports[`Thrift Parser > view token 33`] = `
+"[line=33] [type=19] [channel=0] [tokenIndex=32] [startIndex=1168] [stopIndex=1168]
+:"
+`;
+
+exports[`Thrift Parser > view token 34`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=33] [startIndex=1169] [stopIndex=1169]
+ "
+`;
+
+exports[`Thrift Parser > view token 35`] = `
+"[line=33] [type=43] [channel=0] [tokenIndex=34] [startIndex=1170] [stopIndex=1172]
+i32"
+`;
+
+exports[`Thrift Parser > view token 36`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=35] [startIndex=1173] [stopIndex=1173]
+ "
+`;
+
+exports[`Thrift Parser > view token 37`] = `
+"[line=33] [type=49] [channel=0] [tokenIndex=36] [startIndex=1174] [stopIndex=1176]
+bar"
+`;
+
+exports[`Thrift Parser > view token 38`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=37] [startIndex=1177] [stopIndex=1177]
+ "
+`;
+
+exports[`Thrift Parser > view token 39`] = `
+"[line=33] [type=22] [channel=0] [tokenIndex=38] [startIndex=1178] [stopIndex=1178]
+("
+`;
+
+exports[`Thrift Parser > view token 40`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=39] [startIndex=1179] [stopIndex=1179]
+ "
+`;
+
+exports[`Thrift Parser > view token 41`] = `
+"[line=33] [type=49] [channel=0] [tokenIndex=40] [startIndex=1180] [stopIndex=1187]
+presence"
+`;
+
+exports[`Thrift Parser > view token 42`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=41] [startIndex=1188] [stopIndex=1188]
+ "
+`;
+
+exports[`Thrift Parser > view token 43`] = `
+"[line=33] [type=8] [channel=0] [tokenIndex=42] [startIndex=1189] [stopIndex=1189]
+="
+`;
+
+exports[`Thrift Parser > view token 44`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=43] [startIndex=1190] [stopIndex=1190]
+ "
+`;
+
+exports[`Thrift Parser > view token 45`] = `
+"[line=33] [type=48] [channel=0] [tokenIndex=44] [startIndex=1191] [stopIndex=1200]
+\\"required\\""
+`;
+
+exports[`Thrift Parser > view token 46`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=45] [startIndex=1201] [stopIndex=1201]
+ "
+`;
+
+exports[`Thrift Parser > view token 47`] = `
+"[line=33] [type=23] [channel=0] [tokenIndex=46] [startIndex=1202] [stopIndex=1202]
+)"
+`;
+
+exports[`Thrift Parser > view token 48`] = `
+"[line=33] [type=36] [channel=0] [tokenIndex=47] [startIndex=1203] [stopIndex=1203]
+;"
+`;
+
+exports[`Thrift Parser > view token 49`] = `
+"[line=33] [type=51] [channel=1] [tokenIndex=48] [startIndex=1204] [stopIndex=1206]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 50`] = `
+"[line=34] [type=37] [channel=0] [tokenIndex=49] [startIndex=1207] [stopIndex=1207]
+2"
+`;
+
+exports[`Thrift Parser > view token 51`] = `
+"[line=34] [type=19] [channel=0] [tokenIndex=50] [startIndex=1208] [stopIndex=1208]
+:"
+`;
+
+exports[`Thrift Parser > view token 52`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=51] [startIndex=1209] [stopIndex=1209]
+ "
+`;
+
+exports[`Thrift Parser > view token 53`] = `
+"[line=34] [type=43] [channel=0] [tokenIndex=52] [startIndex=1210] [stopIndex=1212]
+i32"
+`;
+
+exports[`Thrift Parser > view token 54`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=53] [startIndex=1213] [stopIndex=1213]
+ "
+`;
+
+exports[`Thrift Parser > view token 55`] = `
+"[line=34] [type=49] [channel=0] [tokenIndex=54] [startIndex=1214] [stopIndex=1216]
+baz"
+`;
+
+exports[`Thrift Parser > view token 56`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=55] [startIndex=1217] [stopIndex=1217]
+ "
+`;
+
+exports[`Thrift Parser > view token 57`] = `
+"[line=34] [type=22] [channel=0] [tokenIndex=56] [startIndex=1218] [stopIndex=1218]
+("
+`;
+
+exports[`Thrift Parser > view token 58`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=57] [startIndex=1219] [stopIndex=1219]
+ "
+`;
+
+exports[`Thrift Parser > view token 59`] = `
+"[line=34] [type=49] [channel=0] [tokenIndex=58] [startIndex=1220] [stopIndex=1227]
+presence"
+`;
+
+exports[`Thrift Parser > view token 60`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=59] [startIndex=1228] [stopIndex=1228]
+ "
+`;
+
+exports[`Thrift Parser > view token 61`] = `
+"[line=34] [type=8] [channel=0] [tokenIndex=60] [startIndex=1229] [stopIndex=1229]
+="
+`;
+
+exports[`Thrift Parser > view token 62`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=61] [startIndex=1230] [stopIndex=1230]
+ "
+`;
+
+exports[`Thrift Parser > view token 63`] = `
+"[line=34] [type=48] [channel=0] [tokenIndex=62] [startIndex=1231] [stopIndex=1238]
+\\"manual\\""
+`;
+
+exports[`Thrift Parser > view token 64`] = `
+"[line=34] [type=50] [channel=0] [tokenIndex=63] [startIndex=1239] [stopIndex=1239]
+,"
+`;
+
+exports[`Thrift Parser > view token 65`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=64] [startIndex=1240] [stopIndex=1240]
+ "
+`;
+
+exports[`Thrift Parser > view token 66`] = `
+"[line=34] [type=49] [channel=0] [tokenIndex=65] [startIndex=1241] [stopIndex=1255]
+cpp.use_pointer"
+`;
+
+exports[`Thrift Parser > view token 67`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=66] [startIndex=1256] [stopIndex=1256]
+ "
+`;
+
+exports[`Thrift Parser > view token 68`] = `
+"[line=34] [type=8] [channel=0] [tokenIndex=67] [startIndex=1257] [stopIndex=1257]
+="
+`;
+
+exports[`Thrift Parser > view token 69`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=68] [startIndex=1258] [stopIndex=1258]
+ "
+`;
+
+exports[`Thrift Parser > view token 70`] = `
+"[line=34] [type=48] [channel=0] [tokenIndex=69] [startIndex=1259] [stopIndex=1260]
+\\"\\""
+`;
+
+exports[`Thrift Parser > view token 71`] = `
+"[line=34] [type=50] [channel=0] [tokenIndex=70] [startIndex=1261] [stopIndex=1261]
+,"
+`;
+
+exports[`Thrift Parser > view token 72`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=71] [startIndex=1262] [stopIndex=1262]
+ "
+`;
+
+exports[`Thrift Parser > view token 73`] = `
+"[line=34] [type=23] [channel=0] [tokenIndex=72] [startIndex=1263] [stopIndex=1263]
+)"
+`;
+
+exports[`Thrift Parser > view token 74`] = `
+"[line=34] [type=36] [channel=0] [tokenIndex=73] [startIndex=1264] [stopIndex=1264]
+;"
+`;
+
+exports[`Thrift Parser > view token 75`] = `
+"[line=34] [type=51] [channel=1] [tokenIndex=74] [startIndex=1265] [stopIndex=1267]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 76`] = `
+"[line=35] [type=37] [channel=0] [tokenIndex=75] [startIndex=1268] [stopIndex=1268]
+3"
+`;
+
+exports[`Thrift Parser > view token 77`] = `
+"[line=35] [type=19] [channel=0] [tokenIndex=76] [startIndex=1269] [stopIndex=1269]
+:"
+`;
+
+exports[`Thrift Parser > view token 78`] = `
+"[line=35] [type=51] [channel=1] [tokenIndex=77] [startIndex=1270] [stopIndex=1270]
+ "
+`;
+
+exports[`Thrift Parser > view token 79`] = `
+"[line=35] [type=43] [channel=0] [tokenIndex=78] [startIndex=1271] [stopIndex=1273]
+i32"
+`;
+
+exports[`Thrift Parser > view token 80`] = `
+"[line=35] [type=51] [channel=1] [tokenIndex=79] [startIndex=1274] [stopIndex=1274]
+ "
+`;
+
+exports[`Thrift Parser > view token 81`] = `
+"[line=35] [type=49] [channel=0] [tokenIndex=80] [startIndex=1275] [stopIndex=1277]
+qux"
+`;
+
+exports[`Thrift Parser > view token 82`] = `
+"[line=35] [type=36] [channel=0] [tokenIndex=81] [startIndex=1278] [stopIndex=1278]
+;"
+`;
+
+exports[`Thrift Parser > view token 83`] = `
+"[line=35] [type=51] [channel=1] [tokenIndex=82] [startIndex=1279] [stopIndex=1281]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 84`] = `
+"[line=36] [type=37] [channel=0] [tokenIndex=83] [startIndex=1282] [stopIndex=1282]
+4"
+`;
+
+exports[`Thrift Parser > view token 85`] = `
+"[line=36] [type=19] [channel=0] [tokenIndex=84] [startIndex=1283] [stopIndex=1283]
+:"
+`;
+
+exports[`Thrift Parser > view token 86`] = `
+"[line=36] [type=51] [channel=1] [tokenIndex=85] [startIndex=1284] [stopIndex=1284]
+ "
+`;
+
+exports[`Thrift Parser > view token 87`] = `
+"[line=36] [type=43] [channel=0] [tokenIndex=86] [startIndex=1285] [stopIndex=1287]
+i32"
+`;
+
+exports[`Thrift Parser > view token 88`] = `
+"[line=36] [type=51] [channel=1] [tokenIndex=87] [startIndex=1288] [stopIndex=1288]
+ "
+`;
+
+exports[`Thrift Parser > view token 89`] = `
+"[line=36] [type=49] [channel=0] [tokenIndex=88] [startIndex=1289] [stopIndex=1291]
+bop"
+`;
+
+exports[`Thrift Parser > view token 90`] = `
+"[line=36] [type=36] [channel=0] [tokenIndex=89] [startIndex=1292] [stopIndex=1292]
+;"
+`;
+
+exports[`Thrift Parser > view token 91`] = `
+"[line=36] [type=51] [channel=1] [tokenIndex=90] [startIndex=1293] [stopIndex=1293]
+
+"
+`;
+
+exports[`Thrift Parser > view token 92`] = `
+"[line=37] [type=12] [channel=0] [tokenIndex=91] [startIndex=1294] [stopIndex=1294]
+}"
+`;
+
+exports[`Thrift Parser > view token 93`] = `
+"[line=37] [type=51] [channel=1] [tokenIndex=92] [startIndex=1295] [stopIndex=1295]
+ "
+`;
+
+exports[`Thrift Parser > view token 94`] = `
+"[line=37] [type=22] [channel=0] [tokenIndex=93] [startIndex=1296] [stopIndex=1296]
+("
+`;
+
+exports[`Thrift Parser > view token 95`] = `
+"[line=37] [type=51] [channel=1] [tokenIndex=94] [startIndex=1297] [stopIndex=1299]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 96`] = `
+"[line=38] [type=49] [channel=0] [tokenIndex=95] [startIndex=1300] [stopIndex=1307]
+cpp.type"
+`;
+
+exports[`Thrift Parser > view token 97`] = `
+"[line=38] [type=51] [channel=1] [tokenIndex=96] [startIndex=1308] [stopIndex=1308]
+ "
+`;
+
+exports[`Thrift Parser > view token 98`] = `
+"[line=38] [type=8] [channel=0] [tokenIndex=97] [startIndex=1309] [stopIndex=1309]
+="
+`;
+
+exports[`Thrift Parser > view token 99`] = `
+"[line=38] [type=51] [channel=1] [tokenIndex=98] [startIndex=1310] [stopIndex=1310]
+ "
+`;
+
+exports[`Thrift Parser > view token 100`] = `
+"[line=38] [type=48] [channel=0] [tokenIndex=99] [startIndex=1311] [stopIndex=1320]
+\\"DenseFoo\\""
+`;
+
+exports[`Thrift Parser > view token 101`] = `
+"[line=38] [type=50] [channel=0] [tokenIndex=100] [startIndex=1321] [stopIndex=1321]
+,"
+`;
+
+exports[`Thrift Parser > view token 102`] = `
+"[line=38] [type=51] [channel=1] [tokenIndex=101] [startIndex=1322] [stopIndex=1324]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 103`] = `
+"[line=39] [type=49] [channel=0] [tokenIndex=102] [startIndex=1325] [stopIndex=1335]
+python.type"
+`;
+
+exports[`Thrift Parser > view token 104`] = `
+"[line=39] [type=51] [channel=1] [tokenIndex=103] [startIndex=1336] [stopIndex=1336]
+ "
+`;
+
+exports[`Thrift Parser > view token 105`] = `
+"[line=39] [type=8] [channel=0] [tokenIndex=104] [startIndex=1337] [stopIndex=1337]
+="
+`;
+
+exports[`Thrift Parser > view token 106`] = `
+"[line=39] [type=51] [channel=1] [tokenIndex=105] [startIndex=1338] [stopIndex=1338]
+ "
+`;
+
+exports[`Thrift Parser > view token 107`] = `
+"[line=39] [type=48] [channel=0] [tokenIndex=106] [startIndex=1339] [stopIndex=1348]
+\\"DenseFoo\\""
+`;
+
+exports[`Thrift Parser > view token 108`] = `
+"[line=39] [type=50] [channel=0] [tokenIndex=107] [startIndex=1349] [stopIndex=1349]
+,"
+`;
+
+exports[`Thrift Parser > view token 109`] = `
+"[line=39] [type=51] [channel=1] [tokenIndex=108] [startIndex=1350] [stopIndex=1352]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 110`] = `
+"[line=40] [type=49] [channel=0] [tokenIndex=109] [startIndex=1353] [stopIndex=1362]
+java.final"
+`;
+
+exports[`Thrift Parser > view token 111`] = `
+"[line=40] [type=51] [channel=1] [tokenIndex=110] [startIndex=1363] [stopIndex=1363]
+ "
+`;
+
+exports[`Thrift Parser > view token 112`] = `
+"[line=40] [type=8] [channel=0] [tokenIndex=111] [startIndex=1364] [stopIndex=1364]
+="
+`;
+
+exports[`Thrift Parser > view token 113`] = `
+"[line=40] [type=51] [channel=1] [tokenIndex=112] [startIndex=1365] [stopIndex=1365]
+ "
+`;
+
+exports[`Thrift Parser > view token 114`] = `
+"[line=40] [type=48] [channel=0] [tokenIndex=113] [startIndex=1366] [stopIndex=1367]
+\\"\\""
+`;
+
+exports[`Thrift Parser > view token 115`] = `
+"[line=40] [type=50] [channel=0] [tokenIndex=114] [startIndex=1368] [stopIndex=1368]
+,"
+`;
+
+exports[`Thrift Parser > view token 116`] = `
+"[line=40] [type=51] [channel=1] [tokenIndex=115] [startIndex=1369] [stopIndex=1371]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 117`] = `
+"[line=41] [type=49] [channel=0] [tokenIndex=116] [startIndex=1372] [stopIndex=1395]
+annotation.without.value"
+`;
+
+exports[`Thrift Parser > view token 118`] = `
+"[line=41] [type=50] [channel=0] [tokenIndex=117] [startIndex=1396] [stopIndex=1396]
+,"
+`;
+
+exports[`Thrift Parser > view token 119`] = `
+"[line=41] [type=51] [channel=1] [tokenIndex=118] [startIndex=1397] [stopIndex=1397]
+
+"
+`;
+
+exports[`Thrift Parser > view token 120`] = `
+"[line=42] [type=23] [channel=0] [tokenIndex=119] [startIndex=1398] [stopIndex=1398]
+)"
+`;
+
+exports[`Thrift Parser > view token 121`] = `
+"[line=42] [type=51] [channel=1] [tokenIndex=120] [startIndex=1399] [stopIndex=1400]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 122`] = `
+"[line=44] [type=16] [channel=0] [tokenIndex=121] [startIndex=1401] [stopIndex=1409]
+exception"
+`;
+
+exports[`Thrift Parser > view token 123`] = `
+"[line=44] [type=51] [channel=1] [tokenIndex=122] [startIndex=1410] [stopIndex=1410]
+ "
+`;
+
+exports[`Thrift Parser > view token 124`] = `
+"[line=44] [type=49] [channel=0] [tokenIndex=123] [startIndex=1411] [stopIndex=1419]
+foo_error"
+`;
+
+exports[`Thrift Parser > view token 125`] = `
+"[line=44] [type=51] [channel=1] [tokenIndex=124] [startIndex=1420] [stopIndex=1420]
+ "
+`;
+
+exports[`Thrift Parser > view token 126`] = `
+"[line=44] [type=11] [channel=0] [tokenIndex=125] [startIndex=1421] [stopIndex=1421]
+{"
+`;
+
+exports[`Thrift Parser > view token 127`] = `
+"[line=44] [type=51] [channel=1] [tokenIndex=126] [startIndex=1422] [stopIndex=1424]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 128`] = `
+"[line=45] [type=37] [channel=0] [tokenIndex=127] [startIndex=1425] [stopIndex=1425]
+1"
+`;
+
+exports[`Thrift Parser > view token 129`] = `
+"[line=45] [type=19] [channel=0] [tokenIndex=128] [startIndex=1426] [stopIndex=1426]
+:"
+`;
+
+exports[`Thrift Parser > view token 130`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=129] [startIndex=1427] [stopIndex=1427]
+ "
+`;
+
+exports[`Thrift Parser > view token 131`] = `
+"[line=45] [type=43] [channel=0] [tokenIndex=130] [startIndex=1428] [stopIndex=1430]
+i32"
+`;
+
+exports[`Thrift Parser > view token 132`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=131] [startIndex=1431] [stopIndex=1431]
+ "
+`;
+
+exports[`Thrift Parser > view token 133`] = `
+"[line=45] [type=49] [channel=0] [tokenIndex=132] [startIndex=1432] [stopIndex=1441]
+error_code"
+`;
+
+exports[`Thrift Parser > view token 134`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=133] [startIndex=1442] [stopIndex=1442]
+ "
+`;
+
+exports[`Thrift Parser > view token 135`] = `
+"[line=45] [type=22] [channel=0] [tokenIndex=134] [startIndex=1443] [stopIndex=1443]
+("
+`;
+
+exports[`Thrift Parser > view token 136`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=135] [startIndex=1444] [stopIndex=1444]
+ "
+`;
+
+exports[`Thrift Parser > view token 137`] = `
+"[line=45] [type=49] [channel=0] [tokenIndex=136] [startIndex=1445] [stopIndex=1447]
+foo"
+`;
+
+exports[`Thrift Parser > view token 138`] = `
+"[line=45] [type=8] [channel=0] [tokenIndex=137] [startIndex=1448] [stopIndex=1448]
+="
+`;
+
+exports[`Thrift Parser > view token 139`] = `
+"[line=45] [type=48] [channel=0] [tokenIndex=138] [startIndex=1449] [stopIndex=1453]
+\\"bar\\""
+`;
+
+exports[`Thrift Parser > view token 140`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=139] [startIndex=1454] [stopIndex=1454]
+ "
+`;
+
+exports[`Thrift Parser > view token 141`] = `
+"[line=45] [type=23] [channel=0] [tokenIndex=140] [startIndex=1455] [stopIndex=1455]
+)"
+`;
+
+exports[`Thrift Parser > view token 142`] = `
+"[line=45] [type=51] [channel=1] [tokenIndex=141] [startIndex=1456] [stopIndex=1458]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 143`] = `
+"[line=46] [type=37] [channel=0] [tokenIndex=142] [startIndex=1459] [stopIndex=1459]
+2"
+`;
+
+exports[`Thrift Parser > view token 144`] = `
+"[line=46] [type=19] [channel=0] [tokenIndex=143] [startIndex=1460] [stopIndex=1460]
+:"
+`;
+
+exports[`Thrift Parser > view token 145`] = `
+"[line=46] [type=51] [channel=1] [tokenIndex=144] [startIndex=1461] [stopIndex=1461]
+ "
+`;
+
+exports[`Thrift Parser > view token 146`] = `
+"[line=46] [type=46] [channel=0] [tokenIndex=145] [startIndex=1462] [stopIndex=1467]
+string"
+`;
+
+exports[`Thrift Parser > view token 147`] = `
+"[line=46] [type=51] [channel=1] [tokenIndex=146] [startIndex=1468] [stopIndex=1468]
+ "
+`;
+
+exports[`Thrift Parser > view token 148`] = `
+"[line=46] [type=49] [channel=0] [tokenIndex=147] [startIndex=1469] [stopIndex=1477]
+error_msg"
+`;
+
+exports[`Thrift Parser > view token 149`] = `
+"[line=46] [type=51] [channel=1] [tokenIndex=148] [startIndex=1478] [stopIndex=1478]
+
+"
+`;
+
+exports[`Thrift Parser > view token 150`] = `
+"[line=47] [type=12] [channel=0] [tokenIndex=149] [startIndex=1479] [stopIndex=1479]
+}"
+`;
+
+exports[`Thrift Parser > view token 151`] = `
+"[line=47] [type=51] [channel=1] [tokenIndex=150] [startIndex=1480] [stopIndex=1480]
+ "
+`;
+
+exports[`Thrift Parser > view token 152`] = `
+"[line=47] [type=22] [channel=0] [tokenIndex=151] [startIndex=1481] [stopIndex=1481]
+("
+`;
+
+exports[`Thrift Parser > view token 153`] = `
+"[line=47] [type=49] [channel=0] [tokenIndex=152] [startIndex=1482] [stopIndex=1484]
+foo"
+`;
+
+exports[`Thrift Parser > view token 154`] = `
+"[line=47] [type=51] [channel=1] [tokenIndex=153] [startIndex=1485] [stopIndex=1485]
+ "
+`;
+
+exports[`Thrift Parser > view token 155`] = `
+"[line=47] [type=8] [channel=0] [tokenIndex=154] [startIndex=1486] [stopIndex=1486]
+="
+`;
+
+exports[`Thrift Parser > view token 156`] = `
+"[line=47] [type=51] [channel=1] [tokenIndex=155] [startIndex=1487] [stopIndex=1487]
+ "
+`;
+
+exports[`Thrift Parser > view token 157`] = `
+"[line=47] [type=48] [channel=0] [tokenIndex=156] [startIndex=1488] [stopIndex=1492]
+\\"bar\\""
+`;
+
+exports[`Thrift Parser > view token 158`] = `
+"[line=47] [type=23] [channel=0] [tokenIndex=157] [startIndex=1493] [stopIndex=1493]
+)"
+`;
+
+exports[`Thrift Parser > view token 159`] = `
+"[line=47] [type=51] [channel=1] [tokenIndex=158] [startIndex=1494] [stopIndex=1495]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 160`] = `
+"[line=49] [type=9] [channel=0] [tokenIndex=159] [startIndex=1496] [stopIndex=1502]
+typedef"
+`;
+
+exports[`Thrift Parser > view token 161`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=160] [startIndex=1503] [stopIndex=1503]
+ "
+`;
+
+exports[`Thrift Parser > view token 162`] = `
+"[line=49] [type=46] [channel=0] [tokenIndex=161] [startIndex=1504] [stopIndex=1509]
+string"
+`;
+
+exports[`Thrift Parser > view token 163`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=162] [startIndex=1510] [stopIndex=1510]
+ "
+`;
+
+exports[`Thrift Parser > view token 164`] = `
+"[line=49] [type=22] [channel=0] [tokenIndex=163] [startIndex=1511] [stopIndex=1511]
+("
+`;
+
+exports[`Thrift Parser > view token 165`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=164] [startIndex=1512] [stopIndex=1512]
+ "
+`;
+
+exports[`Thrift Parser > view token 166`] = `
+"[line=49] [type=49] [channel=0] [tokenIndex=165] [startIndex=1513] [stopIndex=1528]
+unicode.encoding"
+`;
+
+exports[`Thrift Parser > view token 167`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=166] [startIndex=1529] [stopIndex=1529]
+ "
+`;
+
+exports[`Thrift Parser > view token 168`] = `
+"[line=49] [type=8] [channel=0] [tokenIndex=167] [startIndex=1530] [stopIndex=1530]
+="
+`;
+
+exports[`Thrift Parser > view token 169`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=168] [startIndex=1531] [stopIndex=1531]
+ "
+`;
+
+exports[`Thrift Parser > view token 170`] = `
+"[line=49] [type=48] [channel=0] [tokenIndex=169] [startIndex=1532] [stopIndex=1539]
+\\"UTF-16\\""
+`;
+
+exports[`Thrift Parser > view token 171`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=170] [startIndex=1540] [stopIndex=1540]
+ "
+`;
+
+exports[`Thrift Parser > view token 172`] = `
+"[line=49] [type=23] [channel=0] [tokenIndex=171] [startIndex=1541] [stopIndex=1541]
+)"
+`;
+
+exports[`Thrift Parser > view token 173`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=172] [startIndex=1542] [stopIndex=1542]
+ "
+`;
+
+exports[`Thrift Parser > view token 174`] = `
+"[line=49] [type=49] [channel=0] [tokenIndex=173] [startIndex=1543] [stopIndex=1558]
+non_latin_string"
+`;
+
+exports[`Thrift Parser > view token 175`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=174] [startIndex=1559] [stopIndex=1559]
+ "
+`;
+
+exports[`Thrift Parser > view token 176`] = `
+"[line=49] [type=22] [channel=0] [tokenIndex=175] [startIndex=1560] [stopIndex=1560]
+("
+`;
+
+exports[`Thrift Parser > view token 177`] = `
+"[line=49] [type=49] [channel=0] [tokenIndex=176] [startIndex=1561] [stopIndex=1563]
+foo"
+`;
+
+exports[`Thrift Parser > view token 178`] = `
+"[line=49] [type=8] [channel=0] [tokenIndex=177] [startIndex=1564] [stopIndex=1564]
+="
+`;
+
+exports[`Thrift Parser > view token 179`] = `
+"[line=49] [type=48] [channel=0] [tokenIndex=178] [startIndex=1565] [stopIndex=1569]
+\\"bar\\""
+`;
+
+exports[`Thrift Parser > view token 180`] = `
+"[line=49] [type=23] [channel=0] [tokenIndex=179] [startIndex=1570] [stopIndex=1570]
+)"
+`;
+
+exports[`Thrift Parser > view token 181`] = `
+"[line=49] [type=51] [channel=1] [tokenIndex=180] [startIndex=1571] [stopIndex=1571]
+
+"
+`;
+
+exports[`Thrift Parser > view token 182`] = `
+"[line=50] [type=9] [channel=0] [tokenIndex=181] [startIndex=1572] [stopIndex=1578]
+typedef"
+`;
+
+exports[`Thrift Parser > view token 183`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=182] [startIndex=1579] [stopIndex=1579]
+ "
+`;
+
+exports[`Thrift Parser > view token 184`] = `
+"[line=50] [type=32] [channel=0] [tokenIndex=183] [startIndex=1580] [stopIndex=1583]
+list"
+`;
+
+exports[`Thrift Parser > view token 185`] = `
+"[line=50] [type=29] [channel=0] [tokenIndex=184] [startIndex=1584] [stopIndex=1584]
+<"
+`;
+
+exports[`Thrift Parser > view token 186`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=185] [startIndex=1585] [stopIndex=1585]
+ "
+`;
+
+exports[`Thrift Parser > view token 187`] = `
+"[line=50] [type=45] [channel=0] [tokenIndex=186] [startIndex=1586] [stopIndex=1591]
+double"
+`;
+
+exports[`Thrift Parser > view token 188`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=187] [startIndex=1592] [stopIndex=1592]
+ "
+`;
+
+exports[`Thrift Parser > view token 189`] = `
+"[line=50] [type=22] [channel=0] [tokenIndex=188] [startIndex=1593] [stopIndex=1593]
+("
+`;
+
+exports[`Thrift Parser > view token 190`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=189] [startIndex=1594] [stopIndex=1594]
+ "
+`;
+
+exports[`Thrift Parser > view token 191`] = `
+"[line=50] [type=49] [channel=0] [tokenIndex=190] [startIndex=1595] [stopIndex=1609]
+cpp.fixed_point"
+`;
+
+exports[`Thrift Parser > view token 192`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=191] [startIndex=1610] [stopIndex=1610]
+ "
+`;
+
+exports[`Thrift Parser > view token 193`] = `
+"[line=50] [type=8] [channel=0] [tokenIndex=192] [startIndex=1611] [stopIndex=1611]
+="
+`;
+
+exports[`Thrift Parser > view token 194`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=193] [startIndex=1612] [stopIndex=1612]
+ "
+`;
+
+exports[`Thrift Parser > view token 195`] = `
+"[line=50] [type=48] [channel=0] [tokenIndex=194] [startIndex=1613] [stopIndex=1616]
+\\"16\\""
+`;
+
+exports[`Thrift Parser > view token 196`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=195] [startIndex=1617] [stopIndex=1617]
+ "
+`;
+
+exports[`Thrift Parser > view token 197`] = `
+"[line=50] [type=23] [channel=0] [tokenIndex=196] [startIndex=1618] [stopIndex=1618]
+)"
+`;
+
+exports[`Thrift Parser > view token 198`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=197] [startIndex=1619] [stopIndex=1619]
+ "
+`;
+
+exports[`Thrift Parser > view token 199`] = `
+"[line=50] [type=30] [channel=0] [tokenIndex=198] [startIndex=1620] [stopIndex=1620]
+>"
+`;
+
+exports[`Thrift Parser > view token 200`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=199] [startIndex=1621] [stopIndex=1621]
+ "
+`;
+
+exports[`Thrift Parser > view token 201`] = `
+"[line=50] [type=49] [channel=0] [tokenIndex=200] [startIndex=1622] [stopIndex=1636]
+tiny_float_list"
+`;
+
+exports[`Thrift Parser > view token 202`] = `
+"[line=50] [type=51] [channel=1] [tokenIndex=201] [startIndex=1637] [stopIndex=1638]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 203`] = `
+"[line=52] [type=10] [channel=0] [tokenIndex=202] [startIndex=1639] [stopIndex=1642]
+enum"
+`;
+
+exports[`Thrift Parser > view token 204`] = `
+"[line=52] [type=51] [channel=1] [tokenIndex=203] [startIndex=1643] [stopIndex=1643]
+ "
+`;
+
+exports[`Thrift Parser > view token 205`] = `
+"[line=52] [type=49] [channel=0] [tokenIndex=204] [startIndex=1644] [stopIndex=1651]
+weekdays"
+`;
+
+exports[`Thrift Parser > view token 206`] = `
+"[line=52] [type=51] [channel=1] [tokenIndex=205] [startIndex=1652] [stopIndex=1652]
+ "
+`;
+
+exports[`Thrift Parser > view token 207`] = `
+"[line=52] [type=11] [channel=0] [tokenIndex=206] [startIndex=1653] [stopIndex=1653]
+{"
+`;
+
+exports[`Thrift Parser > view token 208`] = `
+"[line=52] [type=51] [channel=1] [tokenIndex=207] [startIndex=1654] [stopIndex=1656]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 209`] = `
+"[line=53] [type=49] [channel=0] [tokenIndex=208] [startIndex=1657] [stopIndex=1662]
+SUNDAY"
+`;
+
+exports[`Thrift Parser > view token 210`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=209] [startIndex=1663] [stopIndex=1663]
+ "
+`;
+
+exports[`Thrift Parser > view token 211`] = `
+"[line=53] [type=22] [channel=0] [tokenIndex=210] [startIndex=1664] [stopIndex=1664]
+("
+`;
+
+exports[`Thrift Parser > view token 212`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=211] [startIndex=1665] [stopIndex=1665]
+ "
+`;
+
+exports[`Thrift Parser > view token 213`] = `
+"[line=53] [type=49] [channel=0] [tokenIndex=212] [startIndex=1666] [stopIndex=1672]
+weekend"
+`;
+
+exports[`Thrift Parser > view token 214`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=213] [startIndex=1673] [stopIndex=1673]
+ "
+`;
+
+exports[`Thrift Parser > view token 215`] = `
+"[line=53] [type=8] [channel=0] [tokenIndex=214] [startIndex=1674] [stopIndex=1674]
+="
+`;
+
+exports[`Thrift Parser > view token 216`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=215] [startIndex=1675] [stopIndex=1675]
+ "
+`;
+
+exports[`Thrift Parser > view token 217`] = `
+"[line=53] [type=48] [channel=0] [tokenIndex=216] [startIndex=1676] [stopIndex=1680]
+\\"yes\\""
+`;
+
+exports[`Thrift Parser > view token 218`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=217] [startIndex=1681] [stopIndex=1681]
+ "
+`;
+
+exports[`Thrift Parser > view token 219`] = `
+"[line=53] [type=23] [channel=0] [tokenIndex=218] [startIndex=1682] [stopIndex=1682]
+)"
+`;
+
+exports[`Thrift Parser > view token 220`] = `
+"[line=53] [type=50] [channel=0] [tokenIndex=219] [startIndex=1683] [stopIndex=1683]
+,"
+`;
+
+exports[`Thrift Parser > view token 221`] = `
+"[line=53] [type=51] [channel=1] [tokenIndex=220] [startIndex=1684] [stopIndex=1686]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 222`] = `
+"[line=54] [type=49] [channel=0] [tokenIndex=221] [startIndex=1687] [stopIndex=1692]
+MONDAY"
+`;
+
+exports[`Thrift Parser > view token 223`] = `
+"[line=54] [type=50] [channel=0] [tokenIndex=222] [startIndex=1693] [stopIndex=1693]
+,"
+`;
+
+exports[`Thrift Parser > view token 224`] = `
+"[line=54] [type=51] [channel=1] [tokenIndex=223] [startIndex=1694] [stopIndex=1696]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 225`] = `
+"[line=55] [type=49] [channel=0] [tokenIndex=224] [startIndex=1697] [stopIndex=1703]
+TUESDAY"
+`;
+
+exports[`Thrift Parser > view token 226`] = `
+"[line=55] [type=50] [channel=0] [tokenIndex=225] [startIndex=1704] [stopIndex=1704]
+,"
+`;
+
+exports[`Thrift Parser > view token 227`] = `
+"[line=55] [type=51] [channel=1] [tokenIndex=226] [startIndex=1705] [stopIndex=1707]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 228`] = `
+"[line=56] [type=49] [channel=0] [tokenIndex=227] [startIndex=1708] [stopIndex=1716]
+WEDNESDAY"
+`;
+
+exports[`Thrift Parser > view token 229`] = `
+"[line=56] [type=50] [channel=0] [tokenIndex=228] [startIndex=1717] [stopIndex=1717]
+,"
+`;
+
+exports[`Thrift Parser > view token 230`] = `
+"[line=56] [type=51] [channel=1] [tokenIndex=229] [startIndex=1718] [stopIndex=1720]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 231`] = `
+"[line=57] [type=49] [channel=0] [tokenIndex=230] [startIndex=1721] [stopIndex=1728]
+THURSDAY"
+`;
+
+exports[`Thrift Parser > view token 232`] = `
+"[line=57] [type=50] [channel=0] [tokenIndex=231] [startIndex=1729] [stopIndex=1729]
+,"
+`;
+
+exports[`Thrift Parser > view token 233`] = `
+"[line=57] [type=51] [channel=1] [tokenIndex=232] [startIndex=1730] [stopIndex=1732]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 234`] = `
+"[line=58] [type=49] [channel=0] [tokenIndex=233] [startIndex=1733] [stopIndex=1738]
+FRIDAY"
+`;
+
+exports[`Thrift Parser > view token 235`] = `
+"[line=58] [type=50] [channel=0] [tokenIndex=234] [startIndex=1739] [stopIndex=1739]
+,"
+`;
+
+exports[`Thrift Parser > view token 236`] = `
+"[line=58] [type=51] [channel=1] [tokenIndex=235] [startIndex=1740] [stopIndex=1742]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 237`] = `
+"[line=59] [type=49] [channel=0] [tokenIndex=236] [startIndex=1743] [stopIndex=1750]
+SATURDAY"
+`;
+
+exports[`Thrift Parser > view token 238`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=237] [startIndex=1751] [stopIndex=1751]
+ "
+`;
+
+exports[`Thrift Parser > view token 239`] = `
+"[line=59] [type=22] [channel=0] [tokenIndex=238] [startIndex=1752] [stopIndex=1752]
+("
+`;
+
+exports[`Thrift Parser > view token 240`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=239] [startIndex=1753] [stopIndex=1753]
+ "
+`;
+
+exports[`Thrift Parser > view token 241`] = `
+"[line=59] [type=49] [channel=0] [tokenIndex=240] [startIndex=1754] [stopIndex=1760]
+weekend"
+`;
+
+exports[`Thrift Parser > view token 242`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=241] [startIndex=1761] [stopIndex=1761]
+ "
+`;
+
+exports[`Thrift Parser > view token 243`] = `
+"[line=59] [type=8] [channel=0] [tokenIndex=242] [startIndex=1762] [stopIndex=1762]
+="
+`;
+
+exports[`Thrift Parser > view token 244`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=243] [startIndex=1763] [stopIndex=1763]
+ "
+`;
+
+exports[`Thrift Parser > view token 245`] = `
+"[line=59] [type=48] [channel=0] [tokenIndex=244] [startIndex=1764] [stopIndex=1768]
+\\"yes\\""
+`;
+
+exports[`Thrift Parser > view token 246`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=245] [startIndex=1769] [stopIndex=1769]
+ "
+`;
+
+exports[`Thrift Parser > view token 247`] = `
+"[line=59] [type=23] [channel=0] [tokenIndex=246] [startIndex=1770] [stopIndex=1770]
+)"
+`;
+
+exports[`Thrift Parser > view token 248`] = `
+"[line=59] [type=51] [channel=1] [tokenIndex=247] [startIndex=1771] [stopIndex=1771]
+
+"
+`;
+
+exports[`Thrift Parser > view token 249`] = `
+"[line=60] [type=12] [channel=0] [tokenIndex=248] [startIndex=1772] [stopIndex=1772]
+}"
+`;
+
+exports[`Thrift Parser > view token 250`] = `
+"[line=60] [type=51] [channel=1] [tokenIndex=249] [startIndex=1773] [stopIndex=1773]
+ "
+`;
+
+exports[`Thrift Parser > view token 251`] = `
+"[line=60] [type=22] [channel=0] [tokenIndex=250] [startIndex=1774] [stopIndex=1774]
+("
+`;
+
+exports[`Thrift Parser > view token 252`] = `
+"[line=60] [type=49] [channel=0] [tokenIndex=251] [startIndex=1775] [stopIndex=1781]
+foo.bar"
+`;
+
+exports[`Thrift Parser > view token 253`] = `
+"[line=60] [type=8] [channel=0] [tokenIndex=252] [startIndex=1782] [stopIndex=1782]
+="
+`;
+
+exports[`Thrift Parser > view token 254`] = `
+"[line=60] [type=48] [channel=0] [tokenIndex=253] [startIndex=1783] [stopIndex=1787]
+\\"baz\\""
+`;
+
+exports[`Thrift Parser > view token 255`] = `
+"[line=60] [type=23] [channel=0] [tokenIndex=254] [startIndex=1788] [stopIndex=1788]
+)"
+`;
+
+exports[`Thrift Parser > view token 256`] = `
+"[line=60] [type=51] [channel=1] [tokenIndex=255] [startIndex=1789] [stopIndex=1790]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 257`] = `
+"[line=62] [type=53] [channel=2] [tokenIndex=256] [startIndex=1791] [stopIndex=1852]
+/* Note that annotations on senum values are not supported. */"
+`;
+
+exports[`Thrift Parser > view token 258`] = `
+"[line=62] [type=51] [channel=1] [tokenIndex=257] [startIndex=1853] [stopIndex=1853]
+
+"
+`;
+
+exports[`Thrift Parser > view token 259`] = `
+"[line=63] [type=13] [channel=0] [tokenIndex=258] [startIndex=1854] [stopIndex=1858]
+senum"
+`;
+
+exports[`Thrift Parser > view token 260`] = `
+"[line=63] [type=51] [channel=1] [tokenIndex=259] [startIndex=1859] [stopIndex=1859]
+ "
+`;
+
+exports[`Thrift Parser > view token 261`] = `
+"[line=63] [type=49] [channel=0] [tokenIndex=260] [startIndex=1860] [stopIndex=1866]
+seasons"
+`;
+
+exports[`Thrift Parser > view token 262`] = `
+"[line=63] [type=51] [channel=1] [tokenIndex=261] [startIndex=1867] [stopIndex=1867]
+ "
+`;
+
+exports[`Thrift Parser > view token 263`] = `
+"[line=63] [type=11] [channel=0] [tokenIndex=262] [startIndex=1868] [stopIndex=1868]
+{"
+`;
+
+exports[`Thrift Parser > view token 264`] = `
+"[line=63] [type=51] [channel=1] [tokenIndex=263] [startIndex=1869] [stopIndex=1871]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 265`] = `
+"[line=64] [type=48] [channel=0] [tokenIndex=264] [startIndex=1872] [stopIndex=1879]
+\\"Spring\\""
+`;
+
+exports[`Thrift Parser > view token 266`] = `
+"[line=64] [type=50] [channel=0] [tokenIndex=265] [startIndex=1880] [stopIndex=1880]
+,"
+`;
+
+exports[`Thrift Parser > view token 267`] = `
+"[line=64] [type=51] [channel=1] [tokenIndex=266] [startIndex=1881] [stopIndex=1883]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 268`] = `
+"[line=65] [type=48] [channel=0] [tokenIndex=267] [startIndex=1884] [stopIndex=1891]
+\\"Summer\\""
+`;
+
+exports[`Thrift Parser > view token 269`] = `
+"[line=65] [type=50] [channel=0] [tokenIndex=268] [startIndex=1892] [stopIndex=1892]
+,"
+`;
+
+exports[`Thrift Parser > view token 270`] = `
+"[line=65] [type=51] [channel=1] [tokenIndex=269] [startIndex=1893] [stopIndex=1895]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 271`] = `
+"[line=66] [type=48] [channel=0] [tokenIndex=270] [startIndex=1896] [stopIndex=1901]
+\\"Fall\\""
+`;
+
+exports[`Thrift Parser > view token 272`] = `
+"[line=66] [type=50] [channel=0] [tokenIndex=271] [startIndex=1902] [stopIndex=1902]
+,"
+`;
+
+exports[`Thrift Parser > view token 273`] = `
+"[line=66] [type=51] [channel=1] [tokenIndex=272] [startIndex=1903] [stopIndex=1905]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 274`] = `
+"[line=67] [type=48] [channel=0] [tokenIndex=273] [startIndex=1906] [stopIndex=1913]
+\\"Winter\\""
+`;
+
+exports[`Thrift Parser > view token 275`] = `
+"[line=67] [type=51] [channel=1] [tokenIndex=274] [startIndex=1914] [stopIndex=1914]
+
+"
+`;
+
+exports[`Thrift Parser > view token 276`] = `
+"[line=68] [type=12] [channel=0] [tokenIndex=275] [startIndex=1915] [stopIndex=1915]
+}"
+`;
+
+exports[`Thrift Parser > view token 277`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=276] [startIndex=1916] [stopIndex=1916]
+ "
+`;
+
+exports[`Thrift Parser > view token 278`] = `
+"[line=68] [type=22] [channel=0] [tokenIndex=277] [startIndex=1917] [stopIndex=1917]
+("
+`;
+
+exports[`Thrift Parser > view token 279`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=278] [startIndex=1918] [stopIndex=1918]
+ "
+`;
+
+exports[`Thrift Parser > view token 280`] = `
+"[line=68] [type=49] [channel=0] [tokenIndex=279] [startIndex=1919] [stopIndex=1921]
+foo"
+`;
+
+exports[`Thrift Parser > view token 281`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=280] [startIndex=1922] [stopIndex=1922]
+ "
+`;
+
+exports[`Thrift Parser > view token 282`] = `
+"[line=68] [type=8] [channel=0] [tokenIndex=281] [startIndex=1923] [stopIndex=1923]
+="
+`;
+
+exports[`Thrift Parser > view token 283`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=282] [startIndex=1924] [stopIndex=1924]
+ "
+`;
+
+exports[`Thrift Parser > view token 284`] = `
+"[line=68] [type=48] [channel=0] [tokenIndex=283] [startIndex=1925] [stopIndex=1929]
+\\"bar\\""
+`;
+
+exports[`Thrift Parser > view token 285`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=284] [startIndex=1930] [stopIndex=1930]
+ "
+`;
+
+exports[`Thrift Parser > view token 286`] = `
+"[line=68] [type=23] [channel=0] [tokenIndex=285] [startIndex=1931] [stopIndex=1931]
+)"
+`;
+
+exports[`Thrift Parser > view token 287`] = `
+"[line=68] [type=51] [channel=1] [tokenIndex=286] [startIndex=1932] [stopIndex=1933]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 288`] = `
+"[line=70] [type=14] [channel=0] [tokenIndex=287] [startIndex=1934] [stopIndex=1939]
+struct"
+`;
+
+exports[`Thrift Parser > view token 289`] = `
+"[line=70] [type=51] [channel=1] [tokenIndex=288] [startIndex=1940] [stopIndex=1940]
+ "
+`;
+
+exports[`Thrift Parser > view token 290`] = `
+"[line=70] [type=49] [channel=0] [tokenIndex=289] [startIndex=1941] [stopIndex=1952]
+ostr_default"
+`;
+
+exports[`Thrift Parser > view token 291`] = `
+"[line=70] [type=51] [channel=1] [tokenIndex=290] [startIndex=1953] [stopIndex=1953]
+ "
+`;
+
+exports[`Thrift Parser > view token 292`] = `
+"[line=70] [type=11] [channel=0] [tokenIndex=291] [startIndex=1954] [stopIndex=1954]
+{"
+`;
+
+exports[`Thrift Parser > view token 293`] = `
+"[line=70] [type=51] [channel=1] [tokenIndex=292] [startIndex=1955] [stopIndex=1957]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 294`] = `
+"[line=71] [type=37] [channel=0] [tokenIndex=293] [startIndex=1958] [stopIndex=1958]
+1"
+`;
+
+exports[`Thrift Parser > view token 295`] = `
+"[line=71] [type=19] [channel=0] [tokenIndex=294] [startIndex=1959] [stopIndex=1959]
+:"
+`;
+
+exports[`Thrift Parser > view token 296`] = `
+"[line=71] [type=51] [channel=1] [tokenIndex=295] [startIndex=1960] [stopIndex=1960]
+ "
+`;
+
+exports[`Thrift Parser > view token 297`] = `
+"[line=71] [type=43] [channel=0] [tokenIndex=296] [startIndex=1961] [stopIndex=1963]
+i32"
+`;
+
+exports[`Thrift Parser > view token 298`] = `
+"[line=71] [type=51] [channel=1] [tokenIndex=297] [startIndex=1964] [stopIndex=1964]
+ "
+`;
+
+exports[`Thrift Parser > view token 299`] = `
+"[line=71] [type=49] [channel=0] [tokenIndex=298] [startIndex=1965] [stopIndex=1967]
+bar"
+`;
+
+exports[`Thrift Parser > view token 300`] = `
+"[line=71] [type=36] [channel=0] [tokenIndex=299] [startIndex=1968] [stopIndex=1968]
+;"
+`;
+
+exports[`Thrift Parser > view token 301`] = `
+"[line=71] [type=51] [channel=1] [tokenIndex=300] [startIndex=1969] [stopIndex=1969]
+
+"
+`;
+
+exports[`Thrift Parser > view token 302`] = `
+"[line=72] [type=12] [channel=0] [tokenIndex=301] [startIndex=1970] [stopIndex=1970]
+}"
+`;
+
+exports[`Thrift Parser > view token 303`] = `
+"[line=72] [type=51] [channel=1] [tokenIndex=302] [startIndex=1971] [stopIndex=1972]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 304`] = `
+"[line=74] [type=14] [channel=0] [tokenIndex=303] [startIndex=1973] [stopIndex=1978]
+struct"
+`;
+
+exports[`Thrift Parser > view token 305`] = `
+"[line=74] [type=51] [channel=1] [tokenIndex=304] [startIndex=1979] [stopIndex=1979]
+ "
+`;
+
+exports[`Thrift Parser > view token 306`] = `
+"[line=74] [type=49] [channel=0] [tokenIndex=305] [startIndex=1980] [stopIndex=1990]
+ostr_custom"
+`;
+
+exports[`Thrift Parser > view token 307`] = `
+"[line=74] [type=51] [channel=1] [tokenIndex=306] [startIndex=1991] [stopIndex=1991]
+ "
+`;
+
+exports[`Thrift Parser > view token 308`] = `
+"[line=74] [type=11] [channel=0] [tokenIndex=307] [startIndex=1992] [stopIndex=1992]
+{"
+`;
+
+exports[`Thrift Parser > view token 309`] = `
+"[line=74] [type=51] [channel=1] [tokenIndex=308] [startIndex=1993] [stopIndex=1995]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 310`] = `
+"[line=75] [type=37] [channel=0] [tokenIndex=309] [startIndex=1996] [stopIndex=1996]
+1"
+`;
+
+exports[`Thrift Parser > view token 311`] = `
+"[line=75] [type=19] [channel=0] [tokenIndex=310] [startIndex=1997] [stopIndex=1997]
+:"
+`;
+
+exports[`Thrift Parser > view token 312`] = `
+"[line=75] [type=51] [channel=1] [tokenIndex=311] [startIndex=1998] [stopIndex=1998]
+ "
+`;
+
+exports[`Thrift Parser > view token 313`] = `
+"[line=75] [type=43] [channel=0] [tokenIndex=312] [startIndex=1999] [stopIndex=2001]
+i32"
+`;
+
+exports[`Thrift Parser > view token 314`] = `
+"[line=75] [type=51] [channel=1] [tokenIndex=313] [startIndex=2002] [stopIndex=2002]
+ "
+`;
+
+exports[`Thrift Parser > view token 315`] = `
+"[line=75] [type=49] [channel=0] [tokenIndex=314] [startIndex=2003] [stopIndex=2005]
+bar"
+`;
+
+exports[`Thrift Parser > view token 316`] = `
+"[line=75] [type=36] [channel=0] [tokenIndex=315] [startIndex=2006] [stopIndex=2006]
+;"
+`;
+
+exports[`Thrift Parser > view token 317`] = `
+"[line=75] [type=51] [channel=1] [tokenIndex=316] [startIndex=2007] [stopIndex=2007]
+
+"
+`;
+
+exports[`Thrift Parser > view token 318`] = `
+"[line=76] [type=12] [channel=0] [tokenIndex=317] [startIndex=2008] [stopIndex=2008]
+}"
+`;
+
+exports[`Thrift Parser > view token 319`] = `
+"[line=76] [type=51] [channel=1] [tokenIndex=318] [startIndex=2009] [stopIndex=2009]
+ "
+`;
+
+exports[`Thrift Parser > view token 320`] = `
+"[line=76] [type=22] [channel=0] [tokenIndex=319] [startIndex=2010] [stopIndex=2010]
+("
+`;
+
+exports[`Thrift Parser > view token 321`] = `
+"[line=76] [type=49] [channel=0] [tokenIndex=320] [startIndex=2011] [stopIndex=2027]
+cpp.customostream"
+`;
+
+exports[`Thrift Parser > view token 322`] = `
+"[line=76] [type=23] [channel=0] [tokenIndex=321] [startIndex=2028] [stopIndex=2028]
+)"
+`;
+
+exports[`Thrift Parser > view token 323`] = `
+"[line=76] [type=51] [channel=1] [tokenIndex=322] [startIndex=2029] [stopIndex=2031]
+
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 324`] = `
+"[line=79] [type=17] [channel=0] [tokenIndex=323] [startIndex=2032] [stopIndex=2038]
+service"
+`;
+
+exports[`Thrift Parser > view token 325`] = `
+"[line=79] [type=51] [channel=1] [tokenIndex=324] [startIndex=2039] [stopIndex=2039]
+ "
+`;
+
+exports[`Thrift Parser > view token 326`] = `
+"[line=79] [type=49] [channel=0] [tokenIndex=325] [startIndex=2040] [stopIndex=2050]
+foo_service"
+`;
+
+exports[`Thrift Parser > view token 327`] = `
+"[line=79] [type=51] [channel=1] [tokenIndex=326] [startIndex=2051] [stopIndex=2051]
+ "
+`;
+
+exports[`Thrift Parser > view token 328`] = `
+"[line=79] [type=11] [channel=0] [tokenIndex=327] [startIndex=2052] [stopIndex=2052]
+{"
+`;
+
+exports[`Thrift Parser > view token 329`] = `
+"[line=79] [type=51] [channel=1] [tokenIndex=328] [startIndex=2053] [stopIndex=2055]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 330`] = `
+"[line=80] [type=26] [channel=0] [tokenIndex=329] [startIndex=2056] [stopIndex=2059]
+void"
+`;
+
+exports[`Thrift Parser > view token 331`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=330] [startIndex=2060] [stopIndex=2060]
+ "
+`;
+
+exports[`Thrift Parser > view token 332`] = `
+"[line=80] [type=49] [channel=0] [tokenIndex=331] [startIndex=2061] [stopIndex=2063]
+foo"
+`;
+
+exports[`Thrift Parser > view token 333`] = `
+"[line=80] [type=22] [channel=0] [tokenIndex=332] [startIndex=2064] [stopIndex=2064]
+("
+`;
+
+exports[`Thrift Parser > view token 334`] = `
+"[line=80] [type=23] [channel=0] [tokenIndex=333] [startIndex=2065] [stopIndex=2065]
+)"
+`;
+
+exports[`Thrift Parser > view token 335`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=334] [startIndex=2066] [stopIndex=2066]
+ "
+`;
+
+exports[`Thrift Parser > view token 336`] = `
+"[line=80] [type=22] [channel=0] [tokenIndex=335] [startIndex=2067] [stopIndex=2067]
+("
+`;
+
+exports[`Thrift Parser > view token 337`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=336] [startIndex=2068] [stopIndex=2068]
+ "
+`;
+
+exports[`Thrift Parser > view token 338`] = `
+"[line=80] [type=49] [channel=0] [tokenIndex=337] [startIndex=2069] [stopIndex=2071]
+foo"
+`;
+
+exports[`Thrift Parser > view token 339`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=338] [startIndex=2072] [stopIndex=2072]
+ "
+`;
+
+exports[`Thrift Parser > view token 340`] = `
+"[line=80] [type=8] [channel=0] [tokenIndex=339] [startIndex=2073] [stopIndex=2073]
+="
+`;
+
+exports[`Thrift Parser > view token 341`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=340] [startIndex=2074] [stopIndex=2074]
+ "
+`;
+
+exports[`Thrift Parser > view token 342`] = `
+"[line=80] [type=48] [channel=0] [tokenIndex=341] [startIndex=2075] [stopIndex=2079]
+\\"bar\\""
+`;
+
+exports[`Thrift Parser > view token 343`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=342] [startIndex=2080] [stopIndex=2080]
+ "
+`;
+
+exports[`Thrift Parser > view token 344`] = `
+"[line=80] [type=23] [channel=0] [tokenIndex=343] [startIndex=2081] [stopIndex=2081]
+)"
+`;
+
+exports[`Thrift Parser > view token 345`] = `
+"[line=80] [type=51] [channel=1] [tokenIndex=344] [startIndex=2082] [stopIndex=2082]
+
+"
+`;
+
+exports[`Thrift Parser > view token 346`] = `
+"[line=81] [type=12] [channel=0] [tokenIndex=345] [startIndex=2083] [stopIndex=2083]
+}"
+`;
+
+exports[`Thrift Parser > view token 347`] = `
+"[line=81] [type=51] [channel=1] [tokenIndex=346] [startIndex=2084] [stopIndex=2084]
+ "
+`;
+
+exports[`Thrift Parser > view token 348`] = `
+"[line=81] [type=22] [channel=0] [tokenIndex=347] [startIndex=2085] [stopIndex=2085]
+("
+`;
+
+exports[`Thrift Parser > view token 349`] = `
+"[line=81] [type=49] [channel=0] [tokenIndex=348] [startIndex=2086] [stopIndex=2088]
+a.b"
+`;
+
+exports[`Thrift Parser > view token 350`] = `
+"[line=81] [type=8] [channel=0] [tokenIndex=349] [startIndex=2089] [stopIndex=2089]
+="
+`;
+
+exports[`Thrift Parser > view token 351`] = `
+"[line=81] [type=48] [channel=0] [tokenIndex=350] [startIndex=2090] [stopIndex=2092]
+\\"c\\""
+`;
+
+exports[`Thrift Parser > view token 352`] = `
+"[line=81] [type=23] [channel=0] [tokenIndex=351] [startIndex=2093] [stopIndex=2093]
+)"
+`;
+
+exports[`Thrift Parser > view token 353`] = `
+"[line=81] [type=51] [channel=1] [tokenIndex=352] [startIndex=2094] [stopIndex=2095]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 354`] = `
+"[line=83] [type=17] [channel=0] [tokenIndex=353] [startIndex=2096] [stopIndex=2102]
+service"
+`;
+
+exports[`Thrift Parser > view token 355`] = `
+"[line=83] [type=51] [channel=1] [tokenIndex=354] [startIndex=2103] [stopIndex=2103]
+ "
+`;
+
+exports[`Thrift Parser > view token 356`] = `
+"[line=83] [type=49] [channel=0] [tokenIndex=355] [startIndex=2104] [stopIndex=2123]
+deprecate_everything"
+`;
+
+exports[`Thrift Parser > view token 357`] = `
+"[line=83] [type=51] [channel=1] [tokenIndex=356] [startIndex=2124] [stopIndex=2124]
+ "
+`;
+
+exports[`Thrift Parser > view token 358`] = `
+"[line=83] [type=11] [channel=0] [tokenIndex=357] [startIndex=2125] [stopIndex=2125]
+{"
+`;
+
+exports[`Thrift Parser > view token 359`] = `
+"[line=83] [type=51] [channel=1] [tokenIndex=358] [startIndex=2126] [stopIndex=2128]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 360`] = `
+"[line=84] [type=52] [channel=2] [tokenIndex=359] [startIndex=2129] [stopIndex=2200]
+// void Foo( ) ( deprecated = \\"This method has neither 'x' nor \\\\\\"y\\\\\\"\\" )
+"
+`;
+
+exports[`Thrift Parser > view token 361`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=360] [startIndex=2201] [stopIndex=2202]
+  "
+`;
+
+exports[`Thrift Parser > view token 362`] = `
+"[line=85] [type=26] [channel=0] [tokenIndex=361] [startIndex=2203] [stopIndex=2206]
+void"
+`;
+
+exports[`Thrift Parser > view token 363`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=362] [startIndex=2207] [stopIndex=2207]
+ "
+`;
+
+exports[`Thrift Parser > view token 364`] = `
+"[line=85] [type=49] [channel=0] [tokenIndex=363] [startIndex=2208] [stopIndex=2210]
+Bar"
+`;
+
+exports[`Thrift Parser > view token 365`] = `
+"[line=85] [type=22] [channel=0] [tokenIndex=364] [startIndex=2211] [stopIndex=2211]
+("
+`;
+
+exports[`Thrift Parser > view token 366`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=365] [startIndex=2212] [stopIndex=2212]
+ "
+`;
+
+exports[`Thrift Parser > view token 367`] = `
+"[line=85] [type=23] [channel=0] [tokenIndex=366] [startIndex=2213] [stopIndex=2213]
+)"
+`;
+
+exports[`Thrift Parser > view token 368`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=367] [startIndex=2214] [stopIndex=2214]
+ "
+`;
+
+exports[`Thrift Parser > view token 369`] = `
+"[line=85] [type=22] [channel=0] [tokenIndex=368] [startIndex=2215] [stopIndex=2215]
+("
+`;
+
+exports[`Thrift Parser > view token 370`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=369] [startIndex=2216] [stopIndex=2216]
+ "
+`;
+
+exports[`Thrift Parser > view token 371`] = `
+"[line=85] [type=49] [channel=0] [tokenIndex=370] [startIndex=2217] [stopIndex=2226]
+deprecated"
+`;
+
+exports[`Thrift Parser > view token 372`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=371] [startIndex=2227] [stopIndex=2227]
+ "
+`;
+
+exports[`Thrift Parser > view token 373`] = `
+"[line=85] [type=8] [channel=0] [tokenIndex=372] [startIndex=2228] [stopIndex=2228]
+="
+`;
+
+exports[`Thrift Parser > view token 374`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=373] [startIndex=2229] [stopIndex=2229]
+ "
+`;
+
+exports[`Thrift Parser > view token 375`] = `
+"[line=85] [type=48] [channel=0] [tokenIndex=374] [startIndex=2230] [stopIndex=2269]
+\\"Fails to deliver ä¸­æ–‡ ÐºÐ¾Ð»Ð±Ð°ÑÐ°\\""
+`;
+
+exports[`Thrift Parser > view token 376`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=375] [startIndex=2270] [stopIndex=2270]
+ "
+`;
+
+exports[`Thrift Parser > view token 377`] = `
+"[line=85] [type=23] [channel=0] [tokenIndex=376] [startIndex=2271] [stopIndex=2271]
+)"
+`;
+
+exports[`Thrift Parser > view token 378`] = `
+"[line=85] [type=51] [channel=1] [tokenIndex=377] [startIndex=2272] [stopIndex=2274]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 379`] = `
+"[line=86] [type=26] [channel=0] [tokenIndex=378] [startIndex=2275] [stopIndex=2278]
+void"
+`;
+
+exports[`Thrift Parser > view token 380`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=379] [startIndex=2279] [stopIndex=2279]
+ "
+`;
+
+exports[`Thrift Parser > view token 381`] = `
+"[line=86] [type=49] [channel=0] [tokenIndex=380] [startIndex=2280] [stopIndex=2282]
+Baz"
+`;
+
+exports[`Thrift Parser > view token 382`] = `
+"[line=86] [type=22] [channel=0] [tokenIndex=381] [startIndex=2283] [stopIndex=2283]
+("
+`;
+
+exports[`Thrift Parser > view token 383`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=382] [startIndex=2284] [stopIndex=2284]
+ "
+`;
+
+exports[`Thrift Parser > view token 384`] = `
+"[line=86] [type=23] [channel=0] [tokenIndex=383] [startIndex=2285] [stopIndex=2285]
+)"
+`;
+
+exports[`Thrift Parser > view token 385`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=384] [startIndex=2286] [stopIndex=2286]
+ "
+`;
+
+exports[`Thrift Parser > view token 386`] = `
+"[line=86] [type=22] [channel=0] [tokenIndex=385] [startIndex=2287] [stopIndex=2287]
+("
+`;
+
+exports[`Thrift Parser > view token 387`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=386] [startIndex=2288] [stopIndex=2288]
+ "
+`;
+
+exports[`Thrift Parser > view token 388`] = `
+"[line=86] [type=49] [channel=0] [tokenIndex=387] [startIndex=2289] [stopIndex=2298]
+deprecated"
+`;
+
+exports[`Thrift Parser > view token 389`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=388] [startIndex=2299] [stopIndex=2299]
+ "
+`;
+
+exports[`Thrift Parser > view token 390`] = `
+"[line=86] [type=8] [channel=0] [tokenIndex=389] [startIndex=2300] [stopIndex=2300]
+="
+`;
+
+exports[`Thrift Parser > view token 391`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=390] [startIndex=2301] [stopIndex=2301]
+ "
+`;
+
+exports[`Thrift Parser > view token 392`] = `
+"[line=86] [type=48] [channel=0] [tokenIndex=391] [startIndex=2302] [stopIndex=2367]
+\\"Need this to work with tabs (\\\\t) or Umlauts (Ã¤Ã¶Ã¼Ã„Ã–ÃœÃŸ) too\\""
+`;
+
+exports[`Thrift Parser > view token 393`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=392] [startIndex=2368] [stopIndex=2368]
+ "
+`;
+
+exports[`Thrift Parser > view token 394`] = `
+"[line=86] [type=23] [channel=0] [tokenIndex=393] [startIndex=2369] [stopIndex=2369]
+)"
+`;
+
+exports[`Thrift Parser > view token 395`] = `
+"[line=86] [type=51] [channel=1] [tokenIndex=394] [startIndex=2370] [stopIndex=2372]
+
+  "
+`;
+
+exports[`Thrift Parser > view token 396`] = `
+"[line=87] [type=26] [channel=0] [tokenIndex=395] [startIndex=2373] [stopIndex=2376]
+void"
+`;
+
+exports[`Thrift Parser > view token 397`] = `
+"[line=87] [type=51] [channel=1] [tokenIndex=396] [startIndex=2377] [stopIndex=2377]
+ "
+`;
+
+exports[`Thrift Parser > view token 398`] = `
+"[line=87] [type=49] [channel=0] [tokenIndex=397] [startIndex=2378] [stopIndex=2387]
+Deprecated"
+`;
+
+exports[`Thrift Parser > view token 399`] = `
+"[line=87] [type=22] [channel=0] [tokenIndex=398] [startIndex=2388] [stopIndex=2388]
+("
+`;
+
+exports[`Thrift Parser > view token 400`] = `
+"[line=87] [type=23] [channel=0] [tokenIndex=399] [startIndex=2389] [stopIndex=2389]
+)"
+`;
+
+exports[`Thrift Parser > view token 401`] = `
+"[line=87] [type=51] [channel=1] [tokenIndex=400] [startIndex=2390] [stopIndex=2390]
+ "
+`;
+
+exports[`Thrift Parser > view token 402`] = `
+"[line=87] [type=22] [channel=0] [tokenIndex=401] [startIndex=2391] [stopIndex=2391]
+("
+`;
+
+exports[`Thrift Parser > view token 403`] = `
+"[line=87] [type=51] [channel=1] [tokenIndex=402] [startIndex=2392] [stopIndex=2392]
+ "
+`;
+
+exports[`Thrift Parser > view token 404`] = `
+"[line=87] [type=49] [channel=0] [tokenIndex=403] [startIndex=2393] [stopIndex=2402]
+deprecated"
+`;
+
+exports[`Thrift Parser > view token 405`] = `
+"[line=87] [type=51] [channel=1] [tokenIndex=404] [startIndex=2403] [stopIndex=2403]
+ "
+`;
+
+exports[`Thrift Parser > view token 406`] = `
+"[line=87] [type=23] [channel=0] [tokenIndex=405] [startIndex=2404] [stopIndex=2404]
+)"
+`;
+
+exports[`Thrift Parser > view token 407`] = `
+"[line=87] [type=51] [channel=1] [tokenIndex=406] [startIndex=2405] [stopIndex=2405]
+ "
+`;
+
+exports[`Thrift Parser > view token 408`] = `
+"[line=87] [type=52] [channel=2] [tokenIndex=407] [startIndex=2406] [stopIndex=2419]
+// no comment
+"
+`;
+
+exports[`Thrift Parser > view token 409`] = `
+"[line=88] [type=12] [channel=0] [tokenIndex=408] [startIndex=2420] [stopIndex=2420]
+}"
+`;
+
+exports[`Thrift Parser > view token 410`] = `
+"[line=88] [type=51] [channel=1] [tokenIndex=409] [startIndex=2421] [stopIndex=2422]
+
+
+"
+`;
+
+exports[`Thrift Parser > view token 411`] = `
+"[line=90] [type=-1] [channel=0] [tokenIndex=410] [startIndex=2423] [stopIndex=2422]
+<EOF>"
+`;
