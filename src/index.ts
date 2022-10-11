@@ -3,8 +3,9 @@ import {
   CharStream,
   CommonTokenStream,
   ParserRuleContext,
+  BailErrorStrategy,
 } from "antlr4ts";
-import { BailErrorStrategy } from "antlr4ts";
+
 import { ThriftParser, DocumentContext } from "./antlr_gen/ThriftParser";
 import { ThriftLexer } from "./antlr_gen/ThriftLexer";
 
