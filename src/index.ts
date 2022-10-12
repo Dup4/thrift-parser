@@ -56,3 +56,8 @@ export * from "./antlr_gen/ThriftParser";
 export * from "./antlr_gen/ThriftVisitor";
 export * from "antlr4ts";
 export * from "antlr4ts/tree/index.js";
+
+export * as ThriftLexerAll from "./antlr_gen/ThriftLexer";
+export * as ThriftListenerAll from "./antlr_gen/ThriftListener";
+export * as ThriftParserAll from "./antlr_gen/ThriftParser";
+export * as ThriftVisitorAll from "./antlr_gen/ThriftVisitor";
